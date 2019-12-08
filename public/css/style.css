@@ -1,0 +1,700 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.cover-img-container {
+    position:relative;
+    top: 0%;
+    left: 0%;
+    height: 100vh;
+    width: 100%;
+    margin: 0px;
+}
+
+.collapsible-header, .collapsible-body, .collapsible, ul.collapsible>li 
+{
+/*  margin: 0!important;;
+  padding: 0!important;*/
+  border: 0!important;
+  box-shadow: none!important;
+  /*background: #fff;*/
+}
+
+.cover-img {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.cover-header {
+    position: absolute;
+    bottom: 0%;
+    left: 5%;
+    padding: 0px !important;
+    max-height: auto;
+    max-width: 80%;
+}
+
+.header-text-container {
+    background-color: rgba(120, 0, 46, 0.8);
+    padding: 10px;
+}
+
+.header-text-small {
+    font-size: 12vw;
+    line-height: 10vw;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header-text-med {
+    font-size: 9vw;
+    line-height: 7vw;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header-text-large {
+    font-size: 7vw;
+    line-height: 5vw;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header-navigation {
+    margin: 40px 0px !important;
+}
+
+.header-navigation-button-container {
+    height: 70px;
+    padding: 0px !important;
+    margin: 0px !important;
+    /* padding: 2px; */
+}
+
+.header-navigation-button-small {
+    display: inline-block;
+    height: 95%;
+    padding: 0px;
+    margin: 2.5% 0%;
+    background-color: #78002e;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3vw;
+    width: 100%;
+    line-height: 70px;
+    text-align: center;
+}
+
+.header-navigation-button-med {
+    display: inline-block;
+    height: 95%;
+    padding: 0px;
+    margin: 2.5% 0%;
+    background-color: #78002e;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2vw;
+    width: 100%;
+    line-height: 70px;
+    text-align: center;
+}
+
+.header-navigation-button-large {
+    display: inline-block;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    background-color: #78002e;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1vw;
+    width: 100%;
+    line-height: 70px;
+    text-align: center;
+}
+
+.header-navigation-button-small:hover {
+    /* transition: 300ms; */
+    border: 2px solid white;
+    background-color: #ad1457;
+}
+
+.header-navigation-button-med:hover {
+    /* transition: 300ms; */
+    border: 2px solid white;
+    background-color: #ad1457;
+}
+
+.header-navigation-button-large:hover {
+    /* transition: 300ms; */
+    border: 2px solid white;
+    background-color: #ad1457;
+}
+
+.last-event {
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.last-event-first, .last-event-second {
+    display: inline-block;
+    padding: 20px !important;
+}
+
+.about-header {
+    margin: 0px !important;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+.header-container {
+    position: absolute;
+    bottom: 0px;
+    background-color: rgba(120, 0, 46, 0.8);
+}
+
+.header-img-container {
+    padding: 0px !important;
+    margin: 0px;
+    height: 400px;
+}
+
+.heading-about {
+    font-family: 'Bebas Neue', cursive;
+    margin: 0px !important;
+}
+
+.header-img {
+    width: 100%;
+    object-fit: cover;
+    height: 400px;
+}
+
+.last-event-first-image-container, .last-event-second-image-container {
+    /* flex: 1; */
+    padding: 10px !important;
+    /* height: 300px; */
+}
+
+.last-event-first-image, .last-event-second-image {
+    height: 30vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+.last-event-first-heading, .last-event-second-heading {
+    margin: auto;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.last-event-first-content, .last-event-second-content {
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+
+
+.about-section {
+    margin: auto;
+}
+
+.college-logo {
+    object-fit: cover;
+    height: 50vh;
+    width: 100%;
+}
+/*
+.about-the-college-content {
+    text-align: justify;
+}
+*/
+.about-the-college-text {
+    text-align: justify;
+    font-size: 1.2rem;
+}
+
+.about-the-sponsor {
+    margin: 30px 0px;
+}
+
+.sponsor-img-container {
+    padding: 0px !important;
+    height: 350px;
+}
+
+.sponsor-about {
+    text-align: justify;
+    font-size: 1.2rem;
+}
+
+#form-card-background {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background: #af0848;
+    width: 100%;
+    height: 400px;
+}
+
+
+  /* label color */
+  .input-field label {
+    color: #000;
+  }
+  /* label focus color */
+  .input-field input[type=text]:focus + label {
+    color: #000;
+  }
+  /* label underline focus color */
+  .input-field input[type=text]:focus {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000;
+  }
+  /* valid color */
+  .input-field input[type=text].valid {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000;
+  }
+  /* invalid color */
+  .input-field input[type=text].invalid {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000;
+  }
+  /* icon prefix focus color */
+  .input-field .prefix.active {
+    color: #000;
+  }
+
+  .input-field {
+      border: 1px solid #f2f2f2;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.kmc {
+    font-family: 'Bebas Neue', cursive;
+    margin: 0px 20px;
+}
+
+.kmc-small-and-medium {
+    font-family: 'Bebas Neue', cursive;
+}
+
+
+/* .header-alternative {
+    height: 100vh;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 0;
+    position: relative;
+}
+
+.intro-view {
+    top: 0px;
+    left: 0px;
+    height: 100vh;
+    background-image: url("../images/college.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+.nav-space {
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+}
+
+/* .header-intro-text {
+    font-size: 5vw;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header-intro-text-small {
+    font-size: 10vw;
+    font-family: 'Montserrat', sans-serif;
+} */
+
+/* .header-img {
+    object-fit: cover;
+}
+
+.header-text {
+    position: absolute;
+    max-width: 50%;
+    line-height: 3vw;
+    top: 20%;
+    left: 10%;
+    padding: 20px;
+    border-bottom: 5px solid white;
+    background-color: rgba(120, 0, 46, 0.9);
+} */
+
+.nav-link-bold {
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.file-upload-field {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.nav-link-bold-drop {
+    width: 200px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #78002e;
+    font-size: 1rem !important;
+}
+
+/* .header-text-small {
+    position: absolute;
+    max-width: 50%;
+    line-height: 10vw;
+    top: 40%;
+    left: 5%;
+    padding: 20px;
+} */
+
+/* .button-navigation {
+    position: absolute;
+    height: 70px;
+    bottom: 10%;
+    left: 10%;
+    right: 10%;
+}
+
+.button-navigation ul {
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+} */
+
+/* .header-navigation-button {
+    display: inline-block;
+    height: 70px;
+    width: 33%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 70px;
+    font-size: 1.6rem;
+    background-color: rgba(120, 0, 46, 0.9);
+} */
+
+.college-logo {
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    display: block;
+}
+
+/* .introduction-text {
+    font-size: 1.3rem;
+    margin: 0px 100px;
+    text-align: justify;
+} */
+
+.mission-text {
+    font-size: 1.3rem;
+    margin: 0px 100px;
+    text-align: justify;
+}
+
+.vision-text {
+    font-size: 1.3rem;
+    margin: 0px 100px;
+    text-align: justify;
+}
+
+.sponsor-text {
+    font-size: 1.3rem;
+    text-align: justify;
+}
+
+/* .header-navigation-button:hover {
+    transition: 1s;
+    background-color: #c85a54;
+} */
+
+.button-navigation ul li {
+    display: inline;
+}
+
+.introduction {
+    margin-top: 15px;
+    padding: 0px;
+    display: block;
+}
+
+
+
+.about-college {
+    border-right: 2px solid #f1f1f1;
+}
+
+.mission {
+    width: 100%;
+    display: block;
+}
+
+.vision {
+    width: 100%;
+    display: block;
+}
+
+.mission-image {
+    display: block;
+    margin: auto;
+}
+
+.vision-image {
+    display: block;
+    margin: auto;
+}
+
+.college-authority {
+    /* display: block; */
+    margin-top: 40px;
+    border-top: 2px solid #f1f1f1;
+    /* margin-bottom:-20px; */
+}
+
+.sticky-news {
+    transition: 300ms;
+    position: fixed;
+    z-index: 4;
+    margin: 0px;
+    padding: 0px;
+    right: 0px;
+    top: 25%;
+    width: 400px;
+    background-color: transparent;
+}
+
+.sticky-news ul {
+    margin: 0px;
+    padding: 0px;
+    background-color: transparent;
+}
+
+.sticky-news ul li {
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+}
+
+.weird {
+    transform: translateX(250px);
+    transition: 300ms;
+}
+
+.application-form {
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+.application-form-header {
+    display: inline;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.form-submit-button {
+    height: 56px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 98%;
+    line-height: 56px;
+}
+
+.sticky-bold {
+    font-weight: bold;
+}
+
+.card-background {
+    position: absolute;
+    height: 400px;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    background-color: #78002e;
+}
+
+.div-container {
+    width: 80%;
+    display: block;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 150px;
+}
+
+.academic-card {
+    position: absolute;
+    top: 200px;
+    /* height: 80vh; */
+    width: 100%;
+    left: 0%;
+}
+
+/* .base-card {
+    height: 1000px;
+} */
+
+.academics-title {
+    font-size: 4vw;
+    font-family: 'Bebas Neue', cursive;
+    margin: 0px 30px;
+}
+
+nav {
+    z-index: 2;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+}
+
+.fixed-apply-now {
+    position: fixed;
+    bottom: 20px;
+    width: 10%;
+    margin-left: 45%;
+    margin-right: 45%;
+    height: 56px;
+    transition: 300ms;
+    display: block;
+}
+
+.weird-again {
+    transform: translateY(80px);
+    transition: 300ms;
+}
+
+.social-header {
+    font-family: 'Bebas Neue', cursive;
+}
+
+.contact-header {
+    font-family: 'Bebas Neue', cursive;
+}
+
+
+.college-logo-about {
+    display: block;
+    height: 200px;
+    width: 200px;
+    margin: auto;
+}
+
+.logo-container {
+    margin: 20px 0px;
+}
+
+.sponsor-img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.sponsor-name {
+    font-family: 'Bebas Neue', cursive;
+}
+
+.sponsor-text-container {
+    padding: 0px 30px !important; 
+}
+
+.mission-and-vision-img-container {
+    padding: 0px !important;
+    height: 350px;
+}
+
+.mission-and-vision-text {
+    text-align: justify;
+    font-size: 1.2rem;
+}
+
+.mission-and-vision-img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.mission-and-vision-text-container {
+    padding: 0px 30px !important; 
+}
+
+.mission-and-vision-header {
+    font-family: 'Bebas Neue', cursive;
+}
+
+.rules-main {
+    background-color: #f1f1f1;
+    padding-top: 60px;
+}
+
+.main-container {
+    margin-top: 50px;
+}
+
+#rulesHeader {
+    font-size: 3rem; 
+    line-height: 3rem; 
+    font-family: 'Bebas Neue', cursive;
+}
+
+.process-header {
+    font-size: 2rem; 
+    line-height: 2rem; 
+    font-family: 'Bebas Neue', cursive;
+}
+
+.rules-text {
+    font-size: 1.1rem;
+}
+
+.admission-process-ol li {
+    font-size: 1.1rem;
+}
