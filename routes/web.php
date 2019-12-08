@@ -34,3 +34,7 @@ Route::get('/timeline', function(){
 Route::get('/admission', function(){
     return view('pages.admission');
 });
+
+Route::get('/something', function(){
+    return view('pages.something');
+});
