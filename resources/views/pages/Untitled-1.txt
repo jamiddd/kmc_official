@@ -1,0 +1,418 @@
+<div class="header-alternative" id="head_alt">
+    <div class="intro-view">
+        {{-- <img class="header-img" src="images/college.jpg" alt=""> --}}
+    </div>
+    <div class="header-text hide-on-small-only">
+        <span class="white-text header-intro-text">KAMRUP METROPOLITAN COLLEGE</span>
+    </div>
+    <div class="header-text-small hide-on-med-and-up">
+        <span class="white-text header-intro-text-small">KAMRUP METROPOLITAN COLLEGE</span>
+    </div>
+    <div class="button-navigation">
+        <ul class="button-line-header">
+            <li><a class="header-navigation-button white-text" href="/academics">ACADEMICS</a></li>
+            <li><a class="header-navigation-button white-text" href="#app-form">APPLY NOW</a></li>
+            <li><a class="header-navigation-button white-text" href="#">GET STARTED</a></li>
+        </ul>
+    </div>
+</div>
+<main>
+    <div class="last-event row grey lighten-5" style="border-bottom:2px solid #f1f1f1;">
+        <div class="col s12 m6 l6"
+            style="border-right:2px solid #f1f1f1; margin-top:30px;">
+            <div class="row" style="margin:50px;">
+                <div class="col s12 m6 l6" style="display:inline;">
+                    <img style="margin-top:40px; width:100%;" src="images/b.jpg" alt="">
+                </div>
+                <div class="col s12 m6 l6" style="display:inline;">
+                    <h3 style="font-family: 'Bebas Neue', cursive;">INDEPENDENCE DAY AT A GLANCE</h3>
+                    <p style="font-size:1.3rem; color:#777777;"> Kamrup Metropolitan College is a very new College
+                        situated in the suburban
+                        area of Guwahati city. Its just 20kms from the Guwahati city. The colleges
+                        started with Higher Secondary classes 10+2 in Arts and Sciences in the year
+                        2018. This year the college is planning to start 10+2 in commerce alongwith
+                        undergraduate courses in Arts and Commerce and add on courses like UG and PG diploma in selected
+                        professional subjects.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col s12 m6 l6" style="margin-top:30px;">
+            <div class="row" style="margin:50px;">
+                <div class="col s12 m6 l6" style="display:inline;">
+                    <img style="margin-top:40px; width:100%;" src="images/CC.jpg" alt="">
+                </div>
+                <div class="col s12 m6 l6" style="display:inline;">
+                    <h3 style="font-family: 'Bebas Neue', cursive;">DIWALI AT KMC</h3>
+                    <p style="font-size:1.3rem; color:#777777;"> Kamrup Metropolitan College is a very new College
+                        situated in the suburban
+                        area of Guwahati city. Its just 20kms from the Guwahati city. The colleges
+                        started with Higher Secondary classes 10+2 in Arts and Sciences in the year
+                        2018. This year the college is planning to start 10+2 in commerce alongwith
+                        undergraduate courses in Arts and Commerce and add on courses like UG and PG diploma in selected
+                        professional subjects.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="introduction row">
+        <div class="col s12 m6 l6 about-college">
+            <img class="responsive-img college-logo" src="images/logo.svg" alt="">
+            <h4 style="margin:0px 100px;font-family: 'Bebas Neue', cursive;">About us</h4>
+            <p class="introduction-text">
+                Kamrup Metropolitan College is a very new College situated in the suburban
+                area of Guwahati city. Its just 20kms from the Guwahati city. The colleges
+                started with Higher Secondary classes 10+2 in Arts and Sciences in the year
+                2018. This year the college is planning to start 10+2 in commerce alongwith
+                undergraduate courses in Arts and Commerce and add on courses like UG and PG diploma in selected
+                professional subjects. The college is determined to provide basic educational skills to prepare students
+                to face all hurdles in their career avenues. The system of education in the insitute is designed to help
+                students to achieve educational and career goals and develop skills necessary to achieve intellectual
+                and personality development. The institute will provide appropriate academic environment and services
+                that supplements support towards better teaching learning. The present thrust of the institution is to
+                impart qualitative, performance oriented knowledge and training to the students by optimal management of
+                time and energy with the help of qualified and experienced faculties. The main objective of the
+                institute is to enable the students to achieve high performance in the course examination and in various
+                competitive and entrance tests of the state as well as of the country, such as, IIT-JEE Main, Advance,
+                NEET, Civil Service Examination and so on. We are providing appropriate personal attention to all our
+                students. We are providing them a homely atmosphere outside their homes. We are providing hundred
+                percent student freindly education and personality development counseling.
+            </p>
+        </div>
+        <div class="col s12 m6 l6 mission-vision">
+            <div class="mission">
+                <img class="responsive-img mission-image" src="images/mission.jpg" alt="">
+                <h4 style="margin:0px 100px;font-family: 'Bebas Neue', cursive;">Our Mission</h4>
+                <p class="mission-text">
+                    At KMC our mission is always the welfare of our students. To make them better people and rise above
+                    all in the society. To give them the education they always deserved. We believe that education can
+                    change everything. Through proper guidance, we hope to create a better future for the children and
+                    the next generation.
+                </p>
+            </div>
+            <div class="vision">
+                <img class="responsive-img vision-image" src="images/vision.jpg" alt="">
+                <h4 style="margin:0px 100px;font-family: 'Bebas Neue', cursive;">Our Vision</h4>
+                <p class="vision-text">
+                    To create an excellent center of Education and Training in Arts, Science, Commerce and various
+                    important professional cources of class one standard with a view to equip the students to build
+                    confidence and to realize their valued dreams transgressing the barriers in their path.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="college-authority pink lighten-5">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m4 l4" style="padding:40px;">
+                    <img class="responsive-img circle" src="images/sponsor.jpg" style="width:300px; height:300px;"
+                        alt="">
+                </div>
+                <div class="about-the-sponsor col s12 m8 l8">
+                    <h3 style="font-family: 'Bebas Neue', cursive;">Our Sponsor</h3>
+                    <p class="sponsor-text">Education & Research Foundation, Assam (ERFA) is an educational Trust
+                        developed with
+                        objectives to promote educational institutions in different disciplines and aspects, including
+                        professional education and education in sports and performing arts and culture. The foundation
+                        is formed
+                        by eminent educationists and leading educational entrepreneur of the state. The foundation has
+                        started
+                        its first institution - Kamrup Metropolitan College.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="application-form pink darken-4 row" id="app-form">
+        <div class="col s12 m8 l8 offset-l2 offset-m2" style="margin-top:20px;">
+            <h2 class="application-form-header white-text">APPLY RIGHT HERE</h2>
+            <i class="material-icons small white-text">arrow_forward</i>
+            <a href="#app-form" class="tooltipped res" data-position="top" data-tooltip="Reset the form"
+                style="float:right;"><i class="material-icons small white-text">close</i></a>
+            <form style="margin-top:20px;" id="apply-form">
+                <div class="row">
+                    <div class="input-field col s6">
+                        <input class="white-text" id="first_name" type="text" class="validate">
+                        <label for="first_name">First Name</label>
+                    </div>
+                    <div class="input-field col s6">
+                        <input class="white-text" id="last_name" type="text" class="validate">
+                        <label for="last_name">Last Name</label>
+                    </div>
+                    <div class="input-field col s12">
+                        <input class="white-text" id="email" type="email" class="validate">
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="input-field col s12">
+                        <input class="white-text" id="phoneno" type="text">
+                        <label for="phone">Phone</label>
+                    </div>
+                    <div class="input-field col s12">
+                        <input class="white-text" id="course" type="text">
+                        <label for="course">Course</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="file-field input-field file-upload-field">
+                        <div class="btn color-x primary">
+                            <span>Class X Marksheet</span>
+                            <input class="white-text" type="file">
+                        </div>
+                        <div class="file-path-wrapper">
+                            <input class="file-path validate white-text" type="text">
+                        </div>
+                    </div>
+                    <div class="file-field input-field file-upload-field">
+                        <div class="btn color-x primary">
+                            <span>Class X Certificate</span>
+                            <input class="white-text" type="file">
+                        </div>
+                        <div class="file-path-wrapper">
+                            <input class="white-text file-path validate" type="text">
+                        </div>
+                    </div>
+                    <button type="submit" class="btn form-submit-button waves-effect waves-red color-x primary"
+                        style="font-size:1vw;">SUBMIT</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="fixed-apply-now weird-again">
+        <a class="blue darken-1 white-text valign-wrapper" href="#app-form"
+            style="display:block; height:100%; width:100%; border-radius:28px; line-height:56px; text-align:center; font-size:1vw;">Apply
+            Now</a>
+    </div>
+</main>
+{{-- Script for Home Page --}}
+<script>
+    $(document).ready(function(){
+        $('.tooltipped').tooltip();
+    });
+
+    $(".res").click(function () {
+        for (var i = 0; i < 6; i++){
+            $("#apply-form")[0].reset();
+        }
+    });
+
+    $(document).ready(function(){
+        $(".sticky-news").hover(function(){
+            $(this).removeClass('weird');
+        }, function(){
+            // $(this).addClass('weird');
+        });
+    });
+
+    var height =  window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
+
+    $(window).scroll(function(){
+        var newsSection = $('.sticky-news'),
+        scroll = $(window).scrollTop();
+
+        if (scroll >= height/2) 
+            newsSection.addClass('weird');
+        else 
+            newsSection.removeClass('weird');
+    });
+
+    
+    $(window).scroll(function(){
+        var applyButton = $('.fixed-apply-now'),
+        scroll = $(window).scrollTop();
+
+        if (scroll <= height/2 || ($(window).scrollTop() + $(window).height() > ($(document).height() - height/2)))
+            applyButton.addClass('weird-again');
+        else 
+            applyButton.removeClass('weird-again');
+    });
+
+</script>
+
+
+
+ <div class="div-container" style="margin-bottom: 100px;">
+        <div class="card base-card white z-depth-5">
+            <div class="card-content">
+                <span class="academics-title color-x-text text-dark">COURSES WE OFFER</span>
+                <ul class="tabs tabs-fixed-width tab-demo z-depth-1">
+                    <li class="tab"><a class="active" href="#test1">SCIENCE</a></li>
+                    <li class="tab"><a href="#test2">ARTS</a></li>
+                    <li class="tab"><a href="#test3">COMMERCE</a></li>
+                    <li class="tab"><a href="#test4">AVIATION</a></li>
+                    <li class="tab"><a href="#test0">OTHERS</a></li>
+                </ul>
+                <div id="test1" class="col s12">
+                    <div class="card" style="padding-bottom:10px;">
+                        <h4 class="" style="font-family:'Bebas Neue', cursive; padding:10px 20px 0px 20px">CORE SUBJECTS
+                        </h4>
+                        <div class="card-content" style="display:inline">
+                            <div class="chip">English</div>
+                        </div>
+                        <div class="card-content" style="display:inline">
+                            <div class="chip">Alternative English</div>
+                        </div>
+                        <div class="card-content" style="display:inline">
+                            <div class="chip">MIL (Assamese)</div>
+                        </div>
+                    </div>
+
+                    <div class="row" style="padding:10px">
+                        <div class="col s12 l12 m12">
+                            <h3 class="" style="font-family:'Bebas Neue', cursive; padding:10px 20px 0px 20px;">A
+                                STUDENT
+                                CAN SELECT THE FOLLOWING SUBJECTS</h3>
+                        </div>
+                        <div class="col s12 m6 l3">
+                            <div class="card small z-depth-3">
+                                <div class="card-image">
+                                    <img class="responsive-img" src="images/math.jpg">
+                                    <span class="card-title">Mathematics</span>
+                                </div>
+                                <div class="card-content">
+                                    <p>I am a very simple card. I am good at containing small bits of information.
+                                        I am convenient because I require little markup to use effectively.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col s12 m6 l3">
+                            <div class="card small z-depth-3">
+                                <div class="card-image">
+                                    <img class="responsive-img" src="images/physics.jpg">
+                                    <span class="card-title">Physics</span>
+                                </div>
+                                <div class="card-content">
+                                    <p>I am a very simple card. I am good at containing small bits of information.
+                                        I am convenient because I require little markup to use effectively.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col s12 m6 l3">
+                            <div class="card small z-depth-3">
+                                <div class="card-image">
+                                    <img class="responsive-img" src="images/chem.jpg">
+                                    <span class="card-title black-text">Chemistry</span>
+                                </div>
+                                <div class="card-content">
+                                    <p>I am a very simple card. I am good at containing small bits of information.
+                                        I am convenient because I require little markup to use effectively.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col s12 m6 l3">
+                            <div class="card small z-depth-3">
+                                <div class="card-image">
+                                    <img class="responsive-img" src="images/bio.jpg">
+                                    <span class="card-title">Biology</span>
+                                </div>
+                                <div class="card-content">
+                                    <p>I am a very simple card. I am good at containing small bits of information.
+                                        I am convenient because I require little markup to use effectively.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="row" style="padding:10px 20px;">
+                        <h3 style="font-family:'Bebas Neue', cursive; padding:10px 20px 0px 20px;">FEE STRUCTURE</h3>
+                        <div class="col s12 m6 l6">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Admission Fee (One Time)</th>
+                                        <th>Monthly Tution Fee</th>
+                                    </tr>
+                                </thead>
+
+                                <tbody>
+                                    <tr>
+                                        <td>Rs. 10,000</td>
+                                        <td>Rs. 1,000</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div id="test2" class="col s12">
+                    <div>
+                        
+                    </div>
+                </div>
+                <div id="test3" class="col s12">
+                    <p>Test 3</p>
+                </div>
+                <div id="test4" class="col s12">
+                    <p>Test 4</p>
+                </div>
+                <div id="test0" class="col s12">
+                    <p>Test 5</p>
+                </div>
+            </div>
+        </div>
+        <div class="card z-depth-5">
+            <ul class="collapsible">
+                <li class="active">
+                    <div class="collapsible-header">
+                        <h4 style="font-family:'Bebas Neue', cursive;">Apply Now</h4>
+                    </div>
+                    <div class="collapsible-body color-x dark">
+                        <form id="apply-form">
+                            <div class="row">
+                                <div class="input-field col s6">
+                                    <input class="white-text" id="first_name" type="text" class="validate">
+                                    <label for="first_name">First Name</label>
+                                </div>
+                                <div class="input-field col s6">
+                                    <input class="white-text" id="last_name" type="text" class="validate">
+                                    <label for="last_name">Last Name</label>
+                                </div>
+                                <div class="input-field col s12">
+                                    <input class="white-text" id="email" type="email" class="validate">
+                                    <label for="email">Email</label>
+                                </div>
+                                <div class="input-field col s12">
+                                    <input class="white-text" id="phoneno" type="text">
+                                    <label for="phone">Phone</label>
+                                </div>
+                                <div class="input-field col s12">
+                                    <input class="white-text" id="course" type="text">
+                                    <label for="course">Course</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="file-field input-field file-upload-field">
+                                    <div class="btn color-x primary">
+                                        <span>Class X Marksheet</span>
+                                        <input class="white-text" type="file">
+                                    </div>
+                                    <div class="file-path-wrapper">
+                                        <input class="file-path validate white-text" type="text">
+                                    </div>
+                                </div>
+                                <div class="file-field input-field file-upload-field">
+                                    <div class="btn color-x primary">
+                                        <span>Class X Certificate</span>
+                                        <input class="white-text" type="file">
+                                    </div>
+                                    <div class="file-path-wrapper">
+                                        <input class="white-text file-path validate" type="text">
+                                    </div>
+                                </div>
+                                <button type="submit"
+                                    class="btn form-submit-button waves-effect waves-red color-x primary"
+                                    style="font-size:1vw;">SUBMIT</button>
+                            </div>
+                        </form>
+                    </div>
+                </li>
+                <li>
+                    <div class="collapsible-header">
+                        <h4 style="font-family:'Bebas Neue', cursive;">VISIT US DIRECTLY</h4>
+                    </div>
+                    <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                </li>
+                <li>
+                    <div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
+                    <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                </li>
+            </ul>
+        </div>
+    </div>
