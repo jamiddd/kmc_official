@@ -12,5 +12,25 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('pages.index');
+});
+
+Route::get('/about', function() {
+    return view('pages.about');
+});
+
+Route::get('/courses', function() {
+    return view('pages.courses');
+});
+
+Route::get('/rules', function() {
+    return view('pages.rules');
+});
+
+Route::get('/timeline', function(){
+    return view('pages.timeline');
+});
+
+Route::get('/admission', function(){
+    return view('pages.admission');
 });
