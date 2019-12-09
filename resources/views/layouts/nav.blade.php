@@ -11,7 +11,7 @@
 </ul>
 
 <nav>
-    <div class="nav-wrapper">
+    <div class="nav-wrapper grey darken-4">
         <a href="/" class="brand-logo kmc hide-on-med-and-down">Kamrup Metropolitan College</a>
         <a href="/" class="brand-logo hide-on-large-only kmc-small-and-medium">KMC</a>
         <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
@@ -62,7 +62,7 @@
             hover: true,
             closeOnClick: true
         });
-    });    
+    });
 
     document.addEventListener('DOMContentLoaded', function() {
         var elems = document.querySelectorAll('.sidenav');
@@ -74,6 +74,6 @@
     });
 
     // $(document).ready(function() {
-   
+
     // })
 </script>
