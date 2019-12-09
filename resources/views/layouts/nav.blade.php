@@ -27,7 +27,7 @@
 </nav>
 <ul id="slide-out" class="sidenav">
     <li>
-        <a class="waves-effect color-x primary white-text center" href="/admission">APPLY NOW</a>
+        <a class="waves-effect pink accent-3 white-text center" href="/admission">APPLY NOW</a>
     </li>
     <li><a id="about" href="/about">About</a></li>
     <li><a id="timeline" href="/timeline">Timeline</a></li>
@@ -59,7 +59,7 @@
             autoTrigger: true,
             constrainWidth: false,
             coverTrigger: false,
-            hover: true,
+            hover: false,
             closeOnClick: true
         });
     });

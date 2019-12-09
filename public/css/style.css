@@ -244,7 +244,7 @@ main {
     left: 0px;
     background: #333333;
     width: 100%;
-    height: 400px;
+    height: 40vh;
 }
 
 
@@ -554,7 +554,7 @@ main {
 
 .card-background {
     position: absolute;
-    height: 400px;
+    height: 40vh;
     width: 100%;
     top: 0px;
     left: 0px;
