@@ -21,12 +21,12 @@
 
 <body>
     @include('layouts.nav')
-    <div class="sticky-news hide-on-small-only" id="news-section">
+    <div class="sticky-news hide-on-small-only z-depth-5" id="news-section">
         <ul class="collapsible z-depth-5">
             <li>
                 <div class="collapsible-header color-x dark"><i class="white-text material-icons">whatshot</i><span
                         class="white-text sticky-bold">NEWS</span></div>
-                <div class="collapsible-body">
+                <div class="collapsible-body no-padding">
                     <div style="height:270px; width:100%; overflow-y: scroll;">
                         <div class="card horizontal z-depth-3" style="margin:8px;">
                             <div class="card-image">
@@ -88,7 +88,7 @@
             <li>
                 <div class="collapsible-header color-x dark"><i class="white-text material-icons">place</i><span
                         class="white-text sticky-bold">UPCOMING EVENTS</span></div>
-                <div class="collapsible-body">
+                <div class="collapsible-body no-padding">
                     <div style="height:350px; width:100%; overflow-y: scroll;">
                         <div class="card small z-depth-3" style="margin:8px;">
                             <div class="card-image waves-effect waves-block waves-light">
@@ -151,7 +151,7 @@
             <li>
                 <div class="collapsible-header color-x dark"><i class="white-text material-icons">filter_drama</i><span
                         class="white-text sticky-bold">CONTACT</span></div>
-                <div class="collapsible-body">
+                <div class="collapsible-body no-padding">
                     <div style="height:270px; width:100%; overflow-y: scroll;">
                         <div class="card horizontal z-depth-3" style="margin:8px;">
                             <div class="card-image">

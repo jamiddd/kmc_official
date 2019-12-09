@@ -125,8 +125,8 @@ $collapsible-border-color: $primary-color-dark !default;
 // 7. Chips
 // ==========================================================================
 
-$chip-bg-color: #e4e4e4 !default;
-$chip-border-color: #9e9e9e !default;
+$chip-bg-color: $primary-color !default;
+$chip-border-color: $primary-color !default;
 $chip-selected-color: #26a69a !default;
 $chip-margin: 5px !default;
 
