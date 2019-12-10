@@ -6,7 +6,7 @@
 		<div class="card">
 			<div class="card-content valign-wrapper">
           		<span id="rulesHeader" class="color-x-text text-dark">COLLEGE RULES AND DISCIPLINES</span>
-          		<div class="color-x primary chip" style="margin: 0px 15px;"><span class="white-text">Important</span></div>
+          		<div class="pink accent-3 chip" style="margin: 0px 15px;"><span class="white-text">Important</span></div>
         	</div>
 	        <div class="card-action">
 	          	<p class="rules-text">

@@ -24,7 +24,7 @@
     <div class="sticky-news hide-on-small-only z-depth-5" id="news-section">
         <ul class="collapsible z-depth-5">
             <li>
-                <div class="collapsible-header blue darken-1"><i class="white-text material-icons">whatshot</i><span
+                <div class="collapsible-header blue darken-4"><i class="white-text material-icons">whatshot</i><span
                         class="white-text sticky-bold">NEWS</span></div>
                 <div class="collapsible-body no-padding">
                     <div style="height:270px; width:100%; overflow-y: scroll;">
@@ -86,7 +86,7 @@
                 </div>
             </li>
             <li>
-                <div class="collapsible-header blue darken-1"><i class="white-text material-icons">place</i><span
+                <div class="collapsible-header blue darken-4"><i class="white-text material-icons">place</i><span
                         class="white-text sticky-bold">UPCOMING EVENTS</span></div>
                 <div class="collapsible-body no-padding">
                     <div style="height:350px; width:100%; overflow-y: scroll;">
@@ -149,7 +149,7 @@
                 </div>
             </li>
             <li>
-                <div class="collapsible-header blue darken-1"><i class="white-text material-icons">filter_drama</i><span
+                <div class="collapsible-header blue darken-4"><i class="white-text material-icons">filter_drama</i><span
                         class="white-text sticky-bold">CONTACT</span></div>
                 <div class="collapsible-body no-padding">
                     <div style="height:270px; width:100%; overflow-y: scroll;">

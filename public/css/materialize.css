@@ -6090,9 +6090,9 @@ body.keyboard-focused .dropdown-content li:focus {
 }
 
 .collapsible {
-  border-top: 1px solid #430727;
-  border-right: 1px solid #430727;
-  border-left: 1px solid #430727;
+  border-top: 1px solid #170743;
+  border-right: 1px solid #170743;
+  border-left: 1px solid #170743;
   margin: 0.5rem 0 1rem 0;
 }
 
@@ -6104,7 +6104,7 @@ body.keyboard-focused .dropdown-content li:focus {
   line-height: 1.5;
   padding: 1rem;
   background-color: #430727;
-  border-bottom: 1px solid #430727;
+  border-bottom: 1px solid #170743;
 }
 
 .collapsible-header:focus {

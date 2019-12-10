@@ -38,3 +38,7 @@ Route::get('/admission', function(){
 Route::get('/something', function(){
     return view('pages.something');
 });
+
+Route::get('/fees', function(){
+    return view('pages.fees');
+});

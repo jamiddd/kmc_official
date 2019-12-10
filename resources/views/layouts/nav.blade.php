@@ -8,6 +8,7 @@
 <ul id="dropdown-academics" class="dropdown-content">
     <li><a href="/courses" class="nav-link-bold-drop">COURSES</a></li>
     <li><a href="/rules" class="nav-link-bold-drop">RULES</a></li>
+    <li><a href="/fees" class="nav-link-bold-drop">FEE STRUCTURE</a></li>
 </ul>
 
 <nav>
@@ -40,6 +41,7 @@
               <ul class="grey lighten-5">
                 <li><a style="padding-left:40px;" href="/courses">Courses</a></li>
                 <li><a style="padding-left:40px;" href="/rules">Rules</a></li>
+                <li><a style="padding-left:40px;" href="/fees">Fee Structure</a></li>
               </ul>
             </div>
           </li>
