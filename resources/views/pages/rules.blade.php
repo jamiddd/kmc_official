@@ -16,7 +16,7 @@
 		</div>
 		<div class="card">
 			<div class="card-content valign-wrapper">
-          		<span class="process-header color-x-text text-dark">Admission Process</span>
+          		<span class="process-header pink-text accent-3-dark">Admission Process</span>
           		{{-- <div class="color-x primary chip" style="margin: 0px 15px;"><span class="white-text">Important</span></div> --}}
         	</div>
 	        <div class="card-action">
@@ -32,7 +32,7 @@
 		</div>
 		<div class="card">
 			<div class="card-content valign-wrapper">
-          		<span class="process-header color-x-text text-dark">Uniform</span>
+          		<span class="process-header pink-text accent-3-dark">Uniform</span>
           		{{-- <div class="color-x primary chip" style="margin: 0px 15px;"><span class="white-text">Important</span></div> --}}
         	</div>
 	        <div class="card-action">
