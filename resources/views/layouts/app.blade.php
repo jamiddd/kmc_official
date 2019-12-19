@@ -26,8 +26,8 @@
             <li>
                 <div class="collapsible-header blue darken-4"><i class="white-text material-icons">whatshot</i><span
                         class="white-text sticky-bold">NEWS</span></div>
-                <div class="collapsible-body no-padding">
-                    <div style="height:270px; width:100%; overflow-y: scroll;">
+                <div class="collapsible-body no-padding" style="overflow:hidden;">
+                    <div class="inner-collapsible" style="height:270px; width:100%; overflow:auto;">
                         <div class="card horizontal z-depth-3" style="margin:8px;">
                             <div class="card-image">
                                 <img src="images/christmas.jpg" style="width:150px; height:100%; object-fit:cover">
@@ -152,7 +152,7 @@
                 <div class="collapsible-header blue darken-4"><i class="white-text material-icons">filter_drama</i><span
                         class="white-text sticky-bold">CONTACT</span></div>
                 <div class="collapsible-body no-padding">
-                    <div style="height:270px; width:100%; overflow-y: scroll;">
+                    <div style="height:270px; width:100%; overflow-y: scroll;" class="xxx">
                         <div class="card horizontal z-depth-3" style="margin:8px;">
                             <div class="card-image">
                                 <img style="width:150px; height:100%; object-fit:cover" src="images/christmas.jpg">
