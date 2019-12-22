@@ -12,7 +12,7 @@
         flex: 1 0 auto;
     }
 </style>
-<div class="card-background"></div>
+<div id="form-card-background"></div>
 <main>
     <div class="div-container" style="margin-bottom: 100px;">
         <div class="card base-card white z-depth-5">

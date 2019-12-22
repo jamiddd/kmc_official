@@ -30,7 +30,7 @@
                     <div class="inner-collapsible" style="height:270px; width:100%; overflow:auto;">
                         <div class="card horizontal z-depth-3" style="margin:8px;">
                             <div class="card-image">
-                                <img src="images/christmas.jpg" style="width:150px; height:100%; object-fit:cover">
+                                <img class="lazy" src="images/christmas.jpg" style="width:150px; height:100%; object-fit:cover">
                             </div>
                             <div class="card-stacked">
                                 <div class="card-content">
@@ -44,7 +44,7 @@
                         </div>
                         <div class="card horizontal z-depth-3" style="margin:8px;">
                             <div class="card-image">
-                                <img style="width:150px; height:100%; object-fit:cover" src="images/friends.jpg">
+                                <img class="lazy" style="width:150px; height:100%; object-fit:cover" src="images/friends.jpg">
                             </div>
                             <div class="card-stacked">
                                 <div class="card-content">
@@ -58,7 +58,7 @@
                         </div>
                         <div class="card horizontal z-depth-3" style="margin:8px;">
                             <div class="card-image">
-                                <img style="width:150px; height:100%; object-fit:cover"src="images/dating.jpg">
+                                <img class="lazy" style="width:150px; height:100%; object-fit:cover"src="images/dating.jpg">
                             </div>
                             <div class="card-stacked">
                                 <div class="card-content">
@@ -71,7 +71,7 @@
                         </div>
                         <div class="card horizontal z-depth-3" style="margin:8px;">
                             <div class="card-image">
-                                <img style="width:150px; height:100%; object-fit:cover" src="images/books.jpg">
+                                <img class="lazy" style="width:150px; height:100%; object-fit:cover" src="images/books.jpg">
                             </div>
                             <div class="card-stacked">
                                 <div class="card-content">
@@ -92,7 +92,7 @@
                     <div style="height:350px; width:100%; overflow-y: scroll;">
                         <div class="card small z-depth-3" style="margin:8px;">
                             <div class="card-image waves-effect waves-block waves-light">
-                                <img class="activator" src="images/christmas.jpg" style="object-fit:cover">
+                                <img class="activator lazy" src="images/christmas.jpg" style="object-fit:cover">
                             </div>
                             <div class="card-content">
                                 <span class="card-title activator grey-text text-darken-4">Christmas Eve<i
@@ -107,7 +107,7 @@
                         </div>
                         <div class="card horizontal z-depth-3" style="margin:8px;">
                             <div class="card-image">
-                                <img style="width:150px; height:100%; object-fit:cover" src="images/friends.jpg">
+                                <img class="lazy" style="width:150px; height:100%; object-fit:cover" src="images/friends.jpg">
                             </div>
                             <div class="card-stacked">
                                 <div class="card-content">
@@ -121,7 +121,7 @@
                         </div>
                         <div class="card horizontal z-depth-3" style="margin:8px;">
                             <div class="card-image">
-                                <img style="width:150px; height:100%; object-fit:cover" src="images/dating.jpg">
+                                <img class="lazy" style="width:150px; height:100%; object-fit:cover" src="images/dating.jpg">
                             </div>
                             <div class="card-stacked">
                                 <div class="card-content">
@@ -134,7 +134,7 @@
                         </div>
                         <div class="card horizontal z-depth-3" style="margin:8px;">
                             <div class="card-image">
-                                <img style="width:150px; height:100%; object-fit:cover" src="images/books.jpg">
+                                <img class="lazy" style="width:150px; height:100%; object-fit:cover" src="images/books.jpg">
                             </div>
                             <div class="card-stacked">
                                 <div class="card-content">
@@ -155,7 +155,7 @@
                     <div style="height:270px; width:100%; overflow-y: scroll;" class="xxx">
                         <div class="card horizontal z-depth-3" style="margin:8px;">
                             <div class="card-image">
-                                <img style="width:150px; height:100%; object-fit:cover" src="images/christmas.jpg">
+                                <img class="lazy" style="width:150px; height:100%; object-fit:cover" src="images/christmas.jpg">
                             </div>
                             <div class="card-stacked">
                                 <div class="card-content">
@@ -169,7 +169,7 @@
                         </div>
                         <div class="card horizontal z-depth-3" style="margin:8px;">
                             <div class="card-image">
-                                <img style="width:150px; height:100%; object-fit:cover" src="images/friends.jpg">
+                                <img class="lazy" style="width:150px; height:100%; object-fit:cover" src="images/friends.jpg">
                             </div>
                             <div class="card-stacked">
                                 <div class="card-content">
@@ -183,7 +183,7 @@
                         </div>
                         <div class="card horizontal z-depth-3" style="margin:8px;">
                             <div class="card-image">
-                                <img style="width:150px; height:100%; object-fit:cover" src="images/dating.jpg">
+                                <img class="lazy" style="width:150px; height:100%; object-fit:cover" src="images/dating.jpg">
                             </div>
                             <div class="card-stacked">
                                 <div class="card-content">
@@ -196,7 +196,7 @@
                         </div>
                         <div class="card horizontal z-depth-3" style="margin:8px;">
                             <div class="card-image">
-                                <img style="width:150px; height:100%; object-fit:cover" src="images/books.jpg">
+                                <img class="lazy" style="width:150px; height:100%; object-fit:cover" src="images/books.jpg">
                             </div>
                             <div class="card-stacked">
                                 <div class="card-content">
@@ -218,4 +218,5 @@
 </body>
 <script src="{{asset('js/materialize.js')}}"></script>
 <script src="{{asset('js/script.js')}}"></script>
+<script src="jquery.lazyload.js" type="text/javascript"></script>
 </html>
