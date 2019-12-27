@@ -4651,7 +4651,7 @@ nav ul a.btn-floating > .material-icons {
 }
 
 nav ul a:hover {
-  background-color: #f50057;
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 nav ul.left {
@@ -5779,7 +5779,7 @@ button.btn-floating {
 }
 
 .dropdown-content {
-  background-color: #430727;
+  background-color: #ffffff;
   margin: 0;
   display: none;
   min-width: 100px;
@@ -5809,7 +5809,7 @@ button.btn-floating {
 
 .dropdown-content li:hover,
 .dropdown-content li.active {
-  background-color: #cd1577;
+  background-color: #f1f1f1;
 }
 
 .dropdown-content li:focus {
@@ -5824,7 +5824,7 @@ button.btn-floating {
 .dropdown-content li > a,
 .dropdown-content li > span {
   font-size: 16px;
-  color: #ffffff;
+  color: #333333;
   display: block;
   line-height: 22px;
   padding: 14px 16px;
@@ -5845,7 +5845,7 @@ button.btn-floating {
 }
 
 body.keyboard-focused .dropdown-content li:focus {
-  background-color: #a81162;
+  background-color: #dddddd;
 }
 
 .input-field.col .dropdown-content [type=checkbox] + label {
@@ -6090,9 +6090,9 @@ body.keyboard-focused .dropdown-content li:focus {
 }
 
 .collapsible {
-  border-top: 1px solid #170743;
-  border-right: 1px solid #170743;
-  border-left: 1px solid #170743;
+  border-top: 1px solid #430727;
+  border-right: 1px solid #430727;
+  border-left: 1px solid #430727;
   margin: 0.5rem 0 1rem 0;
 }
 
@@ -6104,7 +6104,7 @@ body.keyboard-focused .dropdown-content li:focus {
   line-height: 1.5;
   padding: 1rem;
   background-color: #430727;
-  border-bottom: 1px solid #170743;
+  border-bottom: 1px solid #430727;
 }
 
 .collapsible-header:focus {
@@ -7509,7 +7509,7 @@ body.keyboard-focused .select-dropdown.dropdown-content li:focus {
 }
 
 .select-dropdown li.optgroup {
-  border-top: 1px solid #cd1577;
+  border-top: 1px solid #f1f1f1;
 }
 
 .select-dropdown li.optgroup.selected > span {

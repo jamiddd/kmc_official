@@ -13063,8 +13063,8 @@ var $jscomp$this = this;
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! D:\xampp\htdocs\kmc_official_project\resources\js\bin\materialize.js */"./resources/js/bin/materialize.js");
-module.exports = __webpack_require__(/*! D:\xampp\htdocs\kmc_official_project\resources\sass\materialize.scss */"./resources/sass/materialize.scss");
+__webpack_require__(/*! /opt/lampp/htdocs/kmc_official/resources/js/bin/materialize.js */"./resources/js/bin/materialize.js");
+module.exports = __webpack_require__(/*! /opt/lampp/htdocs/kmc_official/resources/sass/materialize.scss */"./resources/sass/materialize.scss");
 
 
 /***/ })

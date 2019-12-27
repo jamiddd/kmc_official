@@ -13,27 +13,20 @@
                     <p>This is the application form for class XI. Students from class X can apply here.</p>
                     <div class="row" style="margin-top:100px;">
                         <div class="col s12 m12 l12">
-                           {!! Form::open(['url' => '/', 'mehtod' => 'post', 'files' => 'true'])!!}
+                           {!! Form::open(['url' => '/', 'method' => 'post', 'files' => 'true'])!!}
                                 {{Form::token()}}
-                                {{Form::label('username', 'Username', ['class' => 'username'])}}
-                                {{Form::text('username')}}
-                                {{Form::select('size', ['L' => 'Large', 'S' => 'Small'], null, ['placeholder' => 'Pick a size...'])}}
+                                <div class="col s12 m6 l6 input-field">
+                                    {{Form::label('firstname', 'First Name', ['class' => 'username validate'])}}
+                                    {{Form::text('firstname')}}
+                                </div>
+                                <div class="col s12 m6 l6 input-field">
+                                    {{Form::label('lastname', 'Last Name', ['class' => 'username validate'])}}
+                                    {{Form::text('lastname')}}
+                                </div>
+                                <div class="col s12 m6 l6">
+                                    {{Form::select('size', ['L' => 'Large', 'S' => 'Small'], null, ['placeholder' => 'Pick a size...'])}}
+                                </div>
                                 {{Form::submit('Submit', ['class' => 'btn blue'])}}
-                           {{-- Attaching the CSRF token in route mehtod --}}
-                           {{--
-                                Route::post('profile',
-                                    [
-                                        'before' => 'csrf',
-                                        function()
-                                        {
-                                            //
-                                        }
-                                    ]
-                                );
-                            --}}
-                           {{-- Can pass controller mehtod as URL also. such as Controller@method --}}
-
-
                            {!! Form::close() !!}
                         </div>
                     </div>
