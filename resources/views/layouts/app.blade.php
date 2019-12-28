@@ -218,8 +218,4 @@
 </body>
 <script src="{{asset('js/materialize.js')}}"></script>
 <script src="{{asset('js/script.js')}}"></script>
-<script>
-$("img.lazy").lazyload();
-</script>
-<script src="jquery.lazyload.js" type="text/javascript"></script>
 </html>
