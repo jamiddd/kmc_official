@@ -24,10 +24,10 @@
                     <a class="white-text header-navigation-button-large hide-on-med-and-down" href="#">COURSES</a>
                 </div>
                 <div class="col s12 m12 l4 header-navigation-button-container">
-                    <a class="white-text header-navigation-button-small hide-on-med-and-up" href="/admission">APPLY NOW</a>
+                    <a class="white-text header-navigation-button-small hide-on-med-and-up" href="/application_requests/create">APPLY NOW</a>
                     <a class="white-text header-navigation-button-med hide-on-small-only hide-on-large-only"
-                        href="/admission">APPLY NOW</a>
-                    <a class="white-text header-navigation-button-large hide-on-med-and-down" href="/admission">APPLY NOW</a>
+                        href="/application_requests/create">APPLY NOW</a>
+                    <a class="white-text header-navigation-button-large hide-on-med-and-down" href="/application_requests/create">APPLY NOW</a>
                 </div>
                 <div class="col s12 m12 l4 header-navigation-button-container">
                     <a class="white-text header-navigation-button-small hide-on-med-and-up" href="#">GET STARTED</a>

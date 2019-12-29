@@ -12,52 +12,53 @@
                     <span class="card-title" style="margin-left:10px;">Application Form</span>
                     <p style="margin:0px 0px 50px 10px;">This is the application form for class XI. Students from class X can apply here.</p>
                     <div class="row">
-                        <form class="col s12">
+                        {!!Form::open(['action' => 'ApplicationRequestController@store', 'method' => 'POST', 'files' => 'true'], ['class' => 'col s12'])!!}
+                          {!!Form::token()!!}
                           <div class="row">
                             <div class="input-field col s6">
-                              <input id="first_name" type="text" class="validate">
+                              <input id="first_name" name="first_name" type="text" class="validate">
                               <label for="first_name">First Name</label>
                             </div>
                             <div class="input-field col s6">
-                              <input id="last_name" type="text" class="validate">
+                              <input id="last_name" name="last_name" type="text" class="validate">
                               <label for="last_name">Last Name</label>
                             </div>
                           </div>
                           <div class="row">
                             <div class="input-field col s6">
-                              <input id="fathers_name" type="text" class="validate">
+                              <input id="fathers_name" name="fathers_name" type="text" class="validate">
                               <label for="fathers_name">Father's Name</label>
                             </div>
                             <div class="input-field col s6">
-                              <input id="mothers_name" type="text" class="validate">
+                              <input id="mothers_name" name="mothers_name" type="text" class="validate">
                               <label for="mothers_name">Mother's Name</label>
                             </div>
                           </div>
-                          <div class="input-field col s12 m6 l6" style="margin-left:-10px; margin-right:40px;">
-                            <select>
+                          <div class="input-field col s12 m6 l6" style="margin-right:40px;">
+                            <select id="stream" name="stream">
                               <option value="" disabled selected>Choose a stream ...</option>
-                              <option value="1">Arts</option>
-                              <option value="2">Commerce</option>
-                              <option value="3">Science</option>
+                              <option value="Arts">Arts</option>
+                              <option value="Commerce">Commerce</option>
+                              <option value="Science">Science</option>
                             </select>
                             <label>Stream</label>
                           </div>
-                          <div class="input-field col s12 m6 l6" style="margin-left:-10px; margin-right:40px;">
-                            <select>
+                          <div class="input-field col s12 m6 l6" style="margin-right:40px;">
+                            <select id="gender" name="gender">
                               <option value="" disabled selected>Choose your gender ...</option>
-                              <option value="1">Male</option>
-                              <option value="2">Female</option>
-                              <option value="3">Other</option>
+                              <option value="Male">Male</option>
+                              <option value="Female">Female</option>
+                              <option value="Other">Other</option>
                             </select>
                             <label>Gender</label>
                           </div>
-                          <div class="col s12 m6 l6" style="margin-left:-10px; margin-bottom:20px;">
+                          <div class="col s12 m6 l6" style="margin-bottom:20px;">
                             <label for="datep">Date Of Birth</label>
-                            <input type="text" id="datep" class="datepicker">
+                            <input type="text" id="dob" name="dob" class="datepicker">
                           </div>
                           <div class="row">
                             <div class="input-field col s6 m12 l12">
-                              <input id="last_school_name" type="text" class="validate">
+                              <input id="last_school_name" name="last_school_name" type="text" class="validate">
                               <label for="last_school_name">Name of the last school</label>
                             </div>
                           </div>
@@ -75,7 +76,7 @@
                           </div> --}}
                           <div class="row">
                             <div class="input-field col s12">
-                              <input id="email" type="email" class="validate">
+                              <input id="email" name="email" type="email" class="validate">
                               <label for="email">Email</label>
                             </div>
                           </div>
@@ -85,7 +86,7 @@
                               <input type="file">
                             </div>
                             <div class="file-path-wrapper">
-                              <input class="file-path validate" type="text">
+                              <input class="file-path validate" name="photo_url" type="text">
                             </div>
                           </div>
                           <div class="file-field input-field">
@@ -94,7 +95,7 @@
                               <input type="file">
                             </div>
                             <div class="file-path-wrapper">
-                              <input class="file-path validate" type="text">
+                              <input class="file-path validate" name="admit_card" type="text">
                             </div>
                           </div>
                           <div class="file-field input-field">
@@ -103,19 +104,19 @@
                               <input type="file">
                             </div>
                             <div class="file-path-wrapper">
-                              <input class="file-path validate" type="text">
+                              <input class="file-path validate" name="marksheet" type="text">
                             </div>
                           </div>
                           <p>
                             <label>
-                              <input type="checkbox" class="filled-in" checked="checked" />
+                              <input type="checkbox" name="dbta" class="filled-in" />
                               <span>By clicking here you accept the <b class="blue-text">Declaration by the Applicant</b>.</span>
                             </label>
                             <a href="/">Read More</a>
                           </p>
                           <p>
                             <label>
-                              <input type="checkbox" class="filled-in" checked="checked" />
+                              <input type="checkbox" name="dptp" class="filled-in" />
                               <span>By clicking here you accept the <b class="blue-text">Declaration by the Parents/Guardian</b>.</span>
                             </label>
                             <a href="/">Read More</a>
@@ -131,8 +132,11 @@
                               </div>
                             </div>
                           </div> --}}
-                          <a href="" class="white-text waves-effect waves-default pink btn no-padding" style="width:100%; height:56px; line-height:56px; font-family: 'Montserrat', sans-serif; margin-top:30px;">Submit</a>
-                        </form>
+                          {!!Form::hidden('_method', 'POST')!!}
+                          <button class="white-text waves-effect waves-default pink btn no-padding" type="submit" style="width:100%; height:56px; line-height:56px; font-family: 'Montserrat', sans-serif; margin-top:30px;">Submit</button>
+                          {{-- {!!Form::submit('Submit', ['class' => 'white-text waves-effect waves-default pink btn'], ['style' => 'width:100%; height: 56px; line-height:56px;'])!!} --}}
+                          {{-- <a type="submit" class="white-text waves-effect waves-default pink btn no-padding" style="width:100%; height:56px; line-height:56px; font-family: 'Montserrat', sans-serif; margin-top:30px;">Submit</a> --}}
+                          {!! Form::close() !!}
                       </div>
                     {{-- <div class="row" style="margin-top:100px;">
                         <div class="col s12 m12 l12">
@@ -173,6 +177,7 @@
         var elems = document.querySelectorAll('.datepicker');
         var instances = M.Datepicker.init(elems, {
             defaultDate: d,
+            format: 'yyyy-mm-dd',
             minDate: minD,
             maxDate: maxD
         });

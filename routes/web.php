@@ -31,9 +31,9 @@ Route::get('/timeline', function(){
     return view('pages.timeline');
 });
 
-Route::get('/admission', function(){
-    return view('pages.admission');
-});
+// Route::get('/admission', function(){
+//     return view('pages.admission');
+// });
 
 Route::get('/something', function(){
     return view('pages.something');
@@ -42,3 +42,5 @@ Route::get('/something', function(){
 Route::get('/fees', function(){
     return view('pages.fees');
 });
+
+Route::resource('application_requests', 'ApplicationRequestController');
