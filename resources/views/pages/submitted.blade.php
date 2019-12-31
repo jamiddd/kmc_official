@@ -1,21 +1,4 @@
-name
-father name
-mother name
-stream
-address
-gender
-dob
-last school
-13noq!!
-dec by app
-dec by par
-photo2
-admit card
-marksheet
-passed certificate
-character certificate
-
-@include('layouts.app')
+@extends('layouts.app')
 
 @section('content')
 <style>
@@ -29,12 +12,15 @@ character certificate
         flex: 1 0 auto;
     }
 </style>
-{{-- <div class="card-background"></div> --}}
+<div class="card-background"></div>
 <main>
-    {{-- <div class="div-container" style="margin-bottom: 100px;">
-        <div class="card base-card white z-depth-5" style="height:600px;">
+    <div class="div-container" style="margin-bottom: 100px;">
+        <div class="card small base-card white z-depth-5">
             <div class="card-content">
-                @if(count($errors) > 0)
+                <div class="light-green lighten-4" style="width:100%; height:50px; padding:10px;">
+                    <span class="green-text text-darken-4">{{$message}}<a href="/">&nbsp;&nbsp;Return</a></span>
+                </div>
+                {{-- @if(count($errors) > 0)
                     @foreach ($errors->all() as $error)
                         <div class="red lighten-4" style="width:100%; height:100px;">
                             <span class="black-text">{{$error}}</span>
@@ -42,21 +28,19 @@ character certificate
                     @endforeach
                 @endif
                 @if(session('success'))
-                    <div class="light-green lighten-4" style="width:100%; height:100px;">
-                        <span class="green-text text-darken-4">{session('success')}<a href="/">Return</a></span>
-                    </div>
+                    
                 @endif
                 @if (session('error'))
                     <div class="red lighten-4" style="width:100%; height:100px;">
                         <span class="black-text">{{$error}}</span>
                     </div>
-                @endif
+                @endif --}}
             </div>
         </div>
         <div class="card z-depth-5">
             
         </div>
-    </div> --}}
+    </div>
 </main>
 
 <script>

@@ -54,8 +54,10 @@ class ApplicationRequestController extends Controller
         $application_request->photo_url = $request->input('photo_url');
         $application_request->marksheet = $request->input('marksheet');
         $application_request->save();
+        
+        $message = "Application submitted successfully";
     
-        return view('pages.index');
+        return view('pages.submitted')->with('message', $message);
     }
 
     /**

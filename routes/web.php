@@ -43,4 +43,8 @@ Route::get('/fees', function(){
     return view('pages.fees');
 });
 
+Route::get('/submitted', function(){
+    return view('pages.submitted');
+});
+
 Route::resource('application_requests', 'ApplicationRequestController');
