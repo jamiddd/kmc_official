@@ -21,7 +21,7 @@
 
 <body>
     @include('layouts.nav')
-    <div class="sticky-news hide-on-small-only z-depth-5" id="news-section">
+    <div class="sticky-news hide-on-small-only" style="z-index:1;" id="news-section">
         <ul class="collapsible z-depth-5">
             <li>
                 <div class="collapsible-header blue darken-4"><i class="white-text material-icons">whatshot</i><span

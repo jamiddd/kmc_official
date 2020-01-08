@@ -370,6 +370,12 @@ main {
     font-family: 'Montserrat', sans-serif;
 }
 
+.nav-link-bold:hover {
+    background-color: #f50057 !important;
+    color: white !important;
+}
+
+
 .file-upload-field {
     margin-left: 10px;
     margin-right: 10px;
@@ -378,9 +384,26 @@ main {
 .nav-link-bold-drop {
     width: 200px;
     font-weight: bold;
+    color: white !important;
     font-family: 'Montserrat', sans-serif;
     background-color: #f50057;
     font-size: 1rem !important;
+}
+
+.apply-btn {
+    background-color: #f50057;
+    min-width:200px;
+    text-align: center;
+}
+
+
+#dropdown-link {
+    z-index: 5;
+}
+
+.nav-link-bold-drop:hover {
+    color:#f50057 !important;
+    background-color: white;
 }
 
 /* .header-text-small {
@@ -504,7 +527,7 @@ main {
     margin: 0px;
     padding: 0px;
     right: 0px;
-    top: 25%;
+    top: 35%;
     width: 400px;
     background-color: transparent;
 }

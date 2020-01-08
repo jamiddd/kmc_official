@@ -1,10 +1,3 @@
-<ul id="dropdown-account" class="dropdown-content">
-    <li><a href="#!" class="nav-link-bold-drop">VARIABLES</a></li>
-    <li><a href="#!" class="nav-link-bold-drop">SETTINGS</a></li>
-    <li class="divider"></li>
-    <li><a href="#!" class="nav-link-bold-drop">LOGOUT</a></li>
-</ul>
-
 <ul id="dropdown-academics" class="dropdown-content">
     <li><a href="/courses" class="nav-link-bold-drop">COURSES</a></li>
     <li><a href="/rules" class="nav-link-bold-drop">RULES</a></li>
@@ -22,13 +15,13 @@
             <li><a href="/timeline"class="nav-link-bold">CONTACT</a></li>
             <li><a class="dropdown-trigger nav-link-bold" data-target="dropdown-academics" href="#!">ACADEMICS</a></li>
             <!-- Dropdown Trigger -->
-            <li><a class="dropdown-trigger nav-link-bold" href="#!" data-target="dropdown-account">ACCOUNT</a></li>
+            <li><a class="dropdown-trigger nav-link-bold apply-btn" href="/application_requests/create">APPLY NOW</a></li>
         </ul>
     </div>
 </nav>
 <ul id="slide-out" class="sidenav">
     <li>
-        <a class="waves-effect pink accent-3 white-text center" href="/admission">APPLY NOW</a>
+        <a class="waves-effect pink accent-3 white-text center" href="/application_requests/create">APPLY NOW</a>
     </li>
     <li><a id="about" href="/about">About</a></li>
     <li><a id="timeline" href="/timeline">Timeline</a></li>
@@ -73,7 +66,12 @@
             draggable: true,
             preventScrolling: true
         });
+
+        var navLinkBold = document.querySelectorAll('.nav-link-bold');
+        
     });
+
+
 
     // $(document).ready(function() {
 
