@@ -8,7 +8,7 @@
             <div class="card white z-depth-5">
                 <div class="card-content" style="padding:0px !important;">
                     <div class="course-header purple darken-4" style="padding:20px;">
-                        <span class="white-text" style="font-size:3rem; line-height:3.4rem; font-family: 'Montserrat', sans-serif;">Science</span>
+                        <span class="white-text" style="font-size:3rem; line-height:3.4rem; font-family:'Bebas Neue', cursive;">Science</span>
                     </div>
                     <div style="padding:20px;">
                         <h3 style="font-family:'Bebas Neue', cursive;">Core Subjects:</h3>
@@ -32,7 +32,7 @@
             <div class="card white z-depth-5">
                 <div class="card-content" style="padding:0px !important">
                     <div class="course-header blue" style="padding:20px;">
-                        <span class="white-text" style="font-size:3rem; line-height:3.4rem; font-family: 'Montserrat', sans-serif;">Arts</span>
+                        <span class="white-text" style="font-size:3rem; line-height:3.4rem; font-family:'Bebas Neue', cursive;">Arts</span>
                     </div>
                     <div style="padding:20px;">
                         <h3 style="font-family:'Bebas Neue', cursive;">Core Subjects:</h3>
@@ -61,7 +61,7 @@
             <div class="card white z-depth-5">
                 <div class="card-content" style="padding:0px !important">
                     <div class="course-header green darken-4" style="padding:20px;">
-                        <span class="white-text" style="font-size:3rem; line-height:3.4rem; font-family: 'Montserrat', sans-serif;">Commerce</span>
+                        <span class="white-text" style="font-size:3rem; line-height:3.4rem; font-family:'Bebas Neue', cursive;">Commerce</span>
                     </div>
                     <div style="padding:20px;">
                         <h3 style="font-family:'Bebas Neue', cursive;">Core Subjects:</h3>
