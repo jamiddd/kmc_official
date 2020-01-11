@@ -47,4 +47,12 @@ Route::get('/submitted', function(){
     return view('pages.submitted');
 });
 
+Route::get('/auth', function(){
+    return view('pages.auth');
+});
+
+Auth::routes();
+
 Route::resource('application_requests', 'ApplicationRequestController');
+
+Route::get('/home', 'HomeController@index')->name('home');

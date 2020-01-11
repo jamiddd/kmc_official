@@ -18,10 +18,10 @@
             </div>
             <div class="header-navigation row">
                 <div class="col s12 m12 l4 header-navigation-button-container">
-                    <a class="white-text header-navigation-button-small hide-on-med-and-up" href="#">COURSES</a>
+                    <a class="white-text header-navigation-button-small hide-on-med-and-up" href="/courses">COURSES</a>
                     <a class="white-text header-navigation-button-med hide-on-small-only hide-on-large-only"
-                        href="#">COURSES</a>
-                    <a class="white-text header-navigation-button-large hide-on-med-and-down" href="#">COURSES</a>
+                        href="/courses">COURSES</a>
+                    <a class="white-text header-navigation-button-large hide-on-med-and-down" href="/courses">COURSES</a>
                 </div>
                 <div class="col s12 m12 l4 header-navigation-button-container">
                     <a class="white-text header-navigation-button-small hide-on-med-and-up" href="/application_requests/create">APPLY NOW</a>

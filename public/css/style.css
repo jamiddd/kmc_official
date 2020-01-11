@@ -391,7 +391,8 @@ main {
 }
 
 .apply-btn {
-    background-color: #f50057;
+    background-color: #eeff41;
+    color: black;
     min-width:200px;
     text-align: center;
 }

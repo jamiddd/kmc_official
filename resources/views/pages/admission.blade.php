@@ -36,7 +36,7 @@
 </style>
 <div id="form-card-background"></div>
 <main>
-	<div class="container" style="margin-top:100px;">
+	<div class="container" style="margin-top:100px; margin-bottom:100px;">
 		<div class="card">
 			<div class="form-header">
 				<span class="form-headline">Admission Form</span>
