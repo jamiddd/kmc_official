@@ -30,7 +30,7 @@ class HomeController extends Controller
 
     public function mew($q){
         $x = str_split(strtolower($q));
-        $whole = "<table><tr><th>Name</th><th>Mark Sheet</th><th>Admit Card</th><th>Stream</th><th>Phone No.</th><th>Email</th><th>Gender</th><th>DOB</th><th>Father's Name</th><th>Mother's Name</th><th>Last School</th></tr>";
+        $whole = "<table class=\"responsive-table\"><tr><th>Name</th><th>Mark Sheet</th><th>Admit Card</th><th>Stream</th><th>Phone No.</th><th>Email</th><th>Gender</th><th>DOB</th><th>Father's Name</th><th>Mother's Name</th><th>Last School</th></tr>";
         // $letter = Input::get('q');
         $app_reqs = ApplicationRequest::orderBy('created_at', 'asc')->paginate(10);
 

@@ -3,7 +3,7 @@
 @section('content')
 <main>
     <div class="cover-img-container row" id="coverImg">
-        <img class="cover-img" src="images/cover.jpg">
+        <img class="cover-img" src="images/college.jpg">
 
         <div class="cover-header col s10 offset-s1 m10 offset-m1 l8 offset-l2">
             <div class="hide-on-med-and-up header-text-container">

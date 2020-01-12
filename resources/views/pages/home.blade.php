@@ -122,8 +122,12 @@
             </div>
         </div>
         <div style="margin: 0px 20px 0px 20px;">
-            <div class="card" style="height:56px; margin:0px !important;">
-
+            <div id="tab5" class="card waves-effect"
+                style="display:block; width:100%; height:56px; margin:0px !important; cursor:pointer;">
+                <span style="height:100%; padding-left:20px; line-height:56px; color:red; text-align:center;">Log out</span>
+                <div class="right" style="height:56px;">
+                    <i class="material-icons" style="line-height:56px; padding-right:16px;">exit_to_app</i>
+                </div>
             </div>
         </div>
     </div>
@@ -149,7 +153,7 @@
                     <form>
                         <input class="black-text" onblur="revertBg(this)" onclick="changeBg(this)"
                             onkeyup="showTable(this.value)" id="search" type="text" name="search"
-                            style="font-family:Arial, Helvetica, sans-serif; margin: 2px 10px 0px 0px; border-radius:20px; padding: 0px 20px; height:40px; width:300px; border:2px solid white;">
+                            style="font-family:Arial, Helvetica, sans-serif; margin: 2px 10px 0px 0px; border-radius:20px; padding: 0px 20px; height:40px; width:250px; border:2px solid white;">
                     </form>
                 </div>
             </div>
@@ -161,7 +165,7 @@
             </div>
         </div>
         <div id="non-searchable-requests" style="height:500px;">
-            <table>
+            <table class="responsive-table">
                 <tr>
                     <th>Name</th>
                     <th>Mark Sheet</th>
@@ -249,34 +253,34 @@
 
     $(document).ready(function() {
         $('input#input_text, textarea#textarea1').characterCounter();
-        $('#searchable-requests').css('display', 'none').animate();
-        $('#message-compose').css('display', 'none').animate();
-        $('#non-searchable-requests').css('display', 'none').animate();
+        $('#searchable-requests').css('display', 'none').animate(500);
+        $('#message-compose').css('display', 'none').animate(500);
+        $('#non-searchable-requests').css('display', 'none').animate(500);
     });
 
     
 
     $('#tab1').click(function(){
         // $('#s-div').addClass("blue").removeClass("purple");
-        $('#welcome-page').css('display', 'none').animate();
-        $('#searchable-requests').css('display', 'block').animate();
-        $('#message-compose').css('display', 'none').animate();
-        $('#non-searchable-requests').css('display', 'none').animate();
+        $('#welcome-page').css('display', 'none').animate(500);
+        $('#searchable-requests').css('display', 'block').animate(500);
+        $('#message-compose').css('display', 'none').animate(500);
+        $('#non-searchable-requests').css('display', 'none').animate(500);
     })
 
     $('#tab2').click(function(){
-        $('#welcome-page').css('display', 'none').animate();
-        $('#non-searchable-requests').css('display', 'block').animate();
-        $('#message-compose').css('display', 'none').animate();
-        $('#searchable-requests').css('display', 'none').animate();
+        $('#welcome-page').css('display', 'none').animate(500);
+        $('#non-searchable-requests').css('display', 'block').animate(500);
+        $('#message-compose').css('display', 'none').animate(500);
+        $('#searchable-requests').css('display', 'none').animate(500);
     })
 
     $('#tab3').click(function(){
         // $('#s-div').addClass("purple").removeClass("blue");
-        $('#welcome-page').css('display', 'none').animate();
-        $('#non-searchable-requests').css('display', 'none').animate();
-        $('#message-compose').css('display', 'block').animate();
-        $('#searchable-requests').css('display', 'none').animate();
+        $('#welcome-page').css('display', 'none').animate(500);
+        $('#non-searchable-requests').css('display', 'none').animate(500);
+        $('#message-compose').css('display', 'block').animate(500);
+        $('#searchable-requests').css('display', 'none').animate(500);
     })
 
 
@@ -312,10 +316,16 @@
     }
 
     function changeBg(el){
+        el.style.borderBottomLeftRadius = "0px";
+        el.style.borderBottomRightRadius = "0px";
+        el.style.borderBottom = "4px solid white";
         el.style.backgroundColor = "#FFFFFF";
     }
 
     function revertBg(el){
+        el.style.borderBottomLeftRadius = "20px";
+        el.style.borderBottomRightRadius = "20px";
+        el.style.borderBottom = "2px solid white";
         el.style.backgroundColor = "#2979ff";
     }
 

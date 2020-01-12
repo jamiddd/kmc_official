@@ -4,7 +4,7 @@
 <main>
     <div class="about-header row">
         <div class="header-img-container col s12 m12 l12"> 
-            <img class="header-img" src="images/IMG_5007.jpg">    
+            <img class="header-img" src="images/IMG_5012.JPG">    
         </div>
         <div class="header-container col s12 m10 offset-m1 l10 offset-l1">
             <h1 class="heading-about white-text">About Us</h1>
@@ -33,6 +33,19 @@
                 NEET, Civil Service Examination and so on. We are providing appropriate personal attention to all our
                 students. We are providing them a homely atmosphere outside their homes. We are providing hundred
                 percent student freindly education and personality development counseling.</p>
+            </div>
+            
+            <div class="about-the-princi purple lighten-5 row">
+                <div class="sponsor-text-container col s12 m8 l8">
+    				<h3 class="sponsor-name color-x-text text-dark">Bhupen Hazarika</h3>
+    				<h5 class="color-x-text text-dark">(The Principal)</h5>
+    				<p class="sponsor-about color-x-text text-dark">
+    					"I believe that everyone deserves education in some way or the other. It's a matter of interest, that decides how far can you go with that energy. God provided us with a brain capable of doing miraculous things. If only we could tap into the true power of our brain, we will discover what is called Nirvana."
+    				</p>
+    			</div>
+                <div class="sponsor-img-container col s12 m4 l4">
+    				<img class="sponsor-img" src="images/princi.jpg">
+    			</div>
     		</div>
 
     		<div class="about-the-sponsor row pink lighten-5">
@@ -70,7 +83,15 @@
                     confidence and to realize their valued dreams transgressing the barriers in their path.
     				</p>
     			</div>
-    		</div>
+            </div>
+            
+            <div class="faculty row" style="height:700px;">
+                <img src="/images/faculty.jpg" style="object-fit:cover; height:500px; width:100%;" alt="">
+                <div>
+                    <h5 style="font-family: 'Bebas Neue', cursive;">The Faculty</h5>
+                    <p>Hi, Students! We cannot wait for you to enjoy the best learning adventures that we have set up for you, here at KMC. We do hope that, you chose to follow your dreams along with us. Together, we can endavour through the journey of life. </p>
+                </div>
+            </div>
     	</div>
     </div>
 </main>
