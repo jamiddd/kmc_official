@@ -26,7 +26,7 @@
         });
     </script>
 </head>
-
+<script src="{{asset('js/materialize.js')}}"></script>
 <body>
     @include('layouts.nav')
     <div class="sticky-news hide-on-small-only" style="z-index:1;" id="news-section">
@@ -224,6 +224,14 @@
     @include('layouts.fixedactionbutton')
     @include('layouts.footer')
 </body>
-<script src="{{asset('js/materialize.js')}}"></script>
+
+<script>
+    $('#news-content').val('');
+    M.textareaAutoResize($('#news-content'));
+
+    function showNewsToast(){
+        M.toast({html: 'News uploaded successfully!'})
+    }
+</script>
 <script src="{{asset('js/script.js')}}"></script>
 </html>

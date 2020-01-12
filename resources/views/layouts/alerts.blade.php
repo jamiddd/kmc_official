@@ -11,3 +11,9 @@
     {{session('error')}}
 </div>
 @endif
+
+@if (session('success'))
+<div class="card" style="padding:20px;">
+    {{session('success')}}
+</div>
+@endif

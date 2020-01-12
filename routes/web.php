@@ -56,6 +56,7 @@ Route::get('/auth', function(){
 Auth::routes();
 
 Route::resource('application_requests', 'ApplicationRequestController');
+Route::resource('news_posts', 'NewsController');
 
 Route::get('/home', 'HomeController@index')->name('home');
 
