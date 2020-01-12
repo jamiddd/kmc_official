@@ -3,7 +3,7 @@
 @section('content')
 <div id="form-card-background"></div>
 <main>
-    <div class="container" style="margin-top:170px;">
+    <div class="container" style="margin-top:100px;">
         <div class="row">
             <div class="card white z-depth-5">
                 <div class="card-content" style="padding:0px !important;">

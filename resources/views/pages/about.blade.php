@@ -4,7 +4,7 @@
 <main>
     <div class="about-header row">
         <div class="header-img-container col s12 m12 l12"> 
-            <img class="header-img" src="images/a.jpg">    
+            <img class="header-img" src="images/IMG_5007.jpg">    
         </div>
         <div class="header-container col s12 m10 offset-m1 l10 offset-l1">
             <h1 class="heading-about white-text">About Us</h1>

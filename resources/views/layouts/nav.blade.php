@@ -25,9 +25,12 @@
         <a href="/" class="brand-logo kmc hide-on-med-and-down">Kamrup Metropolitan College</a>
         <a href="/" class="brand-logo hide-on-large-only kmc-small-and-medium">KMC</a>
         <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+       
         <ul class="right hide-on-med-and-down">
+            <li><a href="/" class="nav-link-bold">HOME</a></li>
+            <li><a href="/facilities" class="nav-link-bold">FACILITIES</a></li>
             <li><a href="/about" class="nav-link-bold">ABOUT</a></li>
-            <li><a href="/timeline" class="nav-link-bold">TIMELINE</a></li>
+            <li><a href="/gallery" class="nav-link-bold">GALLERY</a></li>
             <li><a class="dropdown-trigger nav-link-bold" data-target="dropdown-academics" href="#!">ACADEMICS</a></li>
             @guest
             <li><a href="#!" class="nav-link-bold dropdown-trigger" data-target="dropdown-account"><i
@@ -53,8 +56,18 @@
             {{-- <li><a href="#!" class="nav-link-bold dropdown-trigger" data-target="dropdown-account"><i
                         class="material-icons">account_circle</i></a></li> --}}
             <!-- Dropdown Trigger -->
+            @if (Auth::user() != null)
+            @if (Auth::user()->user_type != "admin")
             <li><a class="dropdown-trigger nav-link-bold apply-btn" href="/application_requests/create">APPLY NOW</a>
-            </li>
+            </li>  
+            @else
+              
+            @endif 
+            @else
+            <li><a class="dropdown-trigger nav-link-bold apply-btn" href="/application_requests/create">APPLY NOW</a>
+            </li>     
+            @endif
+            
         </ul>
     </div>
 </nav>
@@ -79,11 +92,12 @@
         <a class="waves-effect black-text center" style="background-color:#eeff41;" href="/application_requests/create">APPLY NOW</a>
     </li>
     <li><a class="waves-effect" id="home" href="/">Home</a></li>
+    <li><a class="waves-effect" id="facilities" href="/facilities">Facilites</a></li>
     <li><a class="waves-effect" id="about" href="/about">About</a></li>
-    <li><a class="waves-effect" id="timeline" href="/timeline">Timeline</a></li>
+    <li><a class="waves-effect" id="gallery" href="/gallery">Gallery</a></li>
     {{-- <li><a id="academics" href="/academics">Academics</a></li> --}}
     <li class="no-padding">
-        <ul class="collapsible collapsible-accordion">
+        <ul class="collapsible collapsible-accordion" style="margin-bottom:0px !important;">
             <li>
                 <a class="waves-effect collapsible-header" style="padding-left:30px;">Academics<i
                         class="material-icons right">arrow_drop_down</i></a>

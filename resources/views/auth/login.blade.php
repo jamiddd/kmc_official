@@ -80,9 +80,6 @@
                                 <button style="margin-top:40px; margin-bottom:40px; font-family: 'Montserrat', sans-serif; width:100%; height:56px;" class="btn blue darken-1 waves-effect waves-light" type="submit"
                                     name="action">Sign in
                                 </button>
-                                <div>
-                                    <a href="#!">&nbsp;Not a student? Click here</a>
-                                </div>
                             </div>
                         </form>
                     </div>

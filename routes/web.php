@@ -11,6 +11,8 @@
 |
 */
 
+use App\ApplicationRequest as AR;
+
 Route::get('/', function () {
     return view('pages.index');
 });
@@ -27,8 +29,8 @@ Route::get('/rules', function() {
     return view('pages.rules');
 });
 
-Route::get('/timeline', function(){
-    return view('pages.timeline');
+Route::get('/gallery', function(){
+    return view('pages.gallery');
 });
 
 // Route::get('/admission', function(){
@@ -56,3 +58,9 @@ Auth::routes();
 Route::resource('application_requests', 'ApplicationRequestController');
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/facilities', function(){
+    return view('pages.facilities');
+});
+
+Route::get('/getdata/{q}', ['uses' =>'HomeController@mew']);
