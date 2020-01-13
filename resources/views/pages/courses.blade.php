@@ -11,6 +11,10 @@
                         <span class="white-text"
                             style="font-size:3rem; line-height:3.4rem; font-family:'Bebas Neue', cursive;">Science</span>
                     </div>
+                    <div class="card-image">
+                        <img src="images/science_.jpg" style="height:400px; object-fit:cover;">
+                        {{-- <span class="card-title">Junamoni Barman</span> --}}
+                    </div>
                     <div style="padding:20px;">
                         <h3 style="font-family:'Bebas Neue', cursive;">Core Subjects:</h3>
                         <ul>
@@ -103,6 +107,10 @@
                     <div class="course-header blue" style="padding:20px;">
                         <span class="white-text"
                             style="font-size:3rem; line-height:3.4rem; font-family:'Bebas Neue', cursive;">Arts</span>
+                    </div>
+                    <div class="card-image">
+                        <img src="images/history_.jpg" style="height:400px; object-fit:cover;">
+                        {{-- <span class="card-title">Junamoni Barman</span> --}}
                     </div>
                     <div style="padding:20px;">
                         <h3 style="font-family:'Bebas Neue', cursive;">Core Subjects:</h3>
@@ -236,6 +244,10 @@
                     <div class="course-header green darken-4" style="padding:20px;">
                         <span class="white-text"
                             style="font-size:3rem; line-height:3.4rem; font-family:'Bebas Neue', cursive;">Commerce</span>
+                    </div>
+                    <div class="card-image">
+                        <img src="images/acc_.jpg" style="height:400px; object-fit:cover;">
+                        {{-- <span class="card-title">Junamoni Barman</span> --}}
                     </div>
                     <div style="padding:20px;">
                         <h3 style="font-family:'Bebas Neue', cursive;">Core Subjects:</h3>
