@@ -20,7 +20,7 @@
     {{-- <li><a href="/fees" class="nav-link-bold-drop">FEE STRUCTURE</a></li> --}}
 </ul>
 
-<nav>
+<nav style="z-index:4;">
     <div class="nav-wrapper grey darken-4">
         <a href="/" class="brand-logo kmc hide-on-med-and-down">Kamrup Metropolitan College</a>
         <a href="/" class="brand-logo hide-on-large-only kmc-small-and-medium">KMC</a>

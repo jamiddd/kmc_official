@@ -51,7 +51,7 @@ main {
 }
 
 .header-text-container {
-    background-color: rgba(120, 0, 46, 0.8);
+    background-color: rgba(0, 0, 0, 0.3);
     padding: 25px !important;
 }
 
@@ -89,7 +89,7 @@ main {
     height: 95%;
     padding: 0px;
     margin: 2.5% 0%;
-    background-color: #78002e;
+    background-color: rgba(41, 121, 255, 1);
     font-family: 'Montserrat', sans-serif;
     font-size: 3vw;
     width: 100%;
@@ -102,7 +102,7 @@ main {
     height: 95%;
     padding: 0px;
     margin: 2.5% 0%;
-    background-color: #78002e;
+    background-color: rgba(41, 121, 255, 1);
     font-family: 'Montserrat', sans-serif;
     font-size: 2vw;
     width: 100%;
@@ -115,7 +115,7 @@ main {
     height: 100%;
     padding: 0px;
     margin: 0px;
-    background-color: #78002e;
+    background-color: rgba(41, 121, 255, 1);
     font-family: 'Montserrat', sans-serif;
     font-size: 1vw;
     width: 100%;
@@ -125,20 +125,23 @@ main {
 
 .header-navigation-button-small:hover {
     /* transition: 300ms; */
-    border: 2px solid white;
-    background-color: #ad1457;
+    border: 2px solid rgba(41, 121, 255, 1);
+    color: rgba(41, 121, 255, 1) !important;
+    background-color: white;
 }
 
 .header-navigation-button-med:hover {
     /* transition: 300ms; */
-    border: 2px solid white;
-    background-color: #ad1457;
+    border: 2px solid rgba(41, 121, 255, 1);
+    color: rgba(41, 121, 255, 1) !important;
+    background-color: white;
 }
 
 .header-navigation-button-large:hover {
     /* transition: 300ms; */
-    border: 2px solid white;
-    background-color: #ad1457;
+    border: 2px solid rgba(41, 121, 255, 1);
+    color: rgba(41, 121, 255, 1) !important;
+    background-color: white;
 }
 
 .last-event {

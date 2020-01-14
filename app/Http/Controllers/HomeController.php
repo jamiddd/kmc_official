@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\ApplicationRequest;
+use Illuminate\Support\Facades\Auth;
 
 class HomeController extends Controller
 {
@@ -24,8 +25,14 @@ class HomeController extends Controller
      */
     public function index()
     {
+        $applied = true;
+        $username = Auth::user()->name;
+        if (!ApplicationRequest::where('fullname', $username)->exists()){
+            $applied = false;
+        }
+        // $ch_username = ApplicationRequest::where('name', $username)->get();
         $app_requests = ApplicationRequest::orderBy('created_at', 'asc')->paginate(10);
-        return view('pages.home')->with('app_requests', $app_requests);
+        return view('pages.home')->with('app_requests', $app_requests)->with('applied', $applied);
     }
 
     public function mew($q){

@@ -37,7 +37,7 @@
 <div id="form-card-background"></div>
 <main>
 	<div class="container" style="margin-top:100px; margin-bottom:100px;">
-		<div class="card">
+		<div class="card z-depth-4">
 			<div class="form-header">
 				<span class="form-headline">Admission Form</span>
 				<span>This is the application form for class XI. Students from class X can apply here.</span>

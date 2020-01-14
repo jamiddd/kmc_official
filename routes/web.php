@@ -57,6 +57,7 @@ Auth::routes();
 
 Route::resource('application_requests', 'ApplicationRequestController');
 Route::resource('news_posts', 'NewsController');
+// Route::get('/apply', ['uses' =>'ApplicationRequestController@create']);
 
 Route::get('/home', 'HomeController@index')->name('home');
 

@@ -2,14 +2,26 @@
 
 @section('content')
 <main>
-    <div class="about-header row">
+    <div id="introduction-about" style="height:700px; position:relative;" class="section scrollspy no-padding">
+        <img src="/images/IMG_5012.JPG" style="object-fit:cover; height:700px; width:100%;" alt="">
+        <div class="row" style="height:700px; width:100%; position:absolute; top:0%; left:0%;">
+            <div class="col s12 l8 m12 offset-l2" style="position:absolute; bottom:0%;">
+                <span class="hide-on-small-only"
+                    style="font-size:7vw; margin:0%; padding:0%; line-height:6vw; color:white; font-family: 'Bebas Neue', cursive;">About Us</span>
+                <span class="hide-on-med-and-up"
+                    style="font-size:12vh; margin:0%; padding:0%; line-height:11vh; color:white; font-family: 'Bebas Neue', cursive;">About
+                    Us</span>
+            </div>
+        </div>
+    </div>
+    {{-- <div class="about-header row">
         <div class="header-img-container col s12 m12 l12"> 
             <img class="header-img" src="images/IMG_5012.JPG">    
         </div>
         <div class="header-container col s12 m10 offset-m1 l10 offset-l1">
             <h1 class="heading-about white-text">About Us</h1>
         </div>
-    </div>
+    </div> --}}
     <div class="about-the-college container">
     	<div class="row">
     		<div class="col s12 m12 l12 logo-container">
@@ -37,7 +49,7 @@
             
             <div class="about-the-princi purple lighten-5 row">
                 <div class="sponsor-text-container col s12 m8 l8">
-    				<h3 class="sponsor-name color-x-text text-dark">Bhupen Hazarika</h3>
+    				<h3 class="sponsor-name color-x-text text-dark">MD Abdul Hassen</h3>
     				<h5 class="color-x-text text-dark">(The Principal)</h5>
     				<p class="sponsor-about color-x-text text-dark">
     					"I believe that everyone deserves education in some way or the other. It's a matter of interest, that decides how far can you go with that energy. God provided us with a brain capable of doing miraculous things. If only we could tap into the true power of our brain, we will discover what is called Nirvana."
