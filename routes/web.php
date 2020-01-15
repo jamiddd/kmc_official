@@ -12,9 +12,11 @@
 */
 
 use App\ApplicationRequest as AR;
+use App\News;
 
 Route::get('/', function () {
-    return view('pages.index');
+    $news = News::all();
+    return view('pages.index')->with('news', $news);
 });
 
 Route::get('/about', function() {

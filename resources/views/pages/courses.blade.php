@@ -1,6 +1,11 @@
 @extends('layouts.app')
 
 @section('content')
+<style>
+    p {
+        font-weight: bold;
+    }
+</style>
 <div id="form-card-background"></div>
 <main>
     <div class="container" style="margin-top:100px;">
@@ -42,8 +47,7 @@
                                         <span class="card-title">Deepshikha Bezbaruah</span>
                                     </div>
                                     <div class="card-content">
-                                        <p>I am a very simple card. I am good at containing small bits of information.
-                                            I am convenient because I require little markup to use effectively.</p>
+                                        <p>Subject: Biology</p>
                                     </div>
                                     {{-- <div class="card-action">
                                         <a href="#">This is a link</a>
@@ -57,8 +61,7 @@
                                         <span class="card-title">Sangita Medhi</span>
                                     </div>
                                     <div class="card-content">
-                                        <p>I am a very simple card. I am good at containing small bits of information.
-                                            I am convenient because I require little markup to use effectively.</p>
+                                        <p>Subject: Physics</p>
                                     </div>
                                     {{-- <div class="card-action">
                                         <a href="#">This is a link</a>
@@ -72,8 +75,7 @@
                                         <span class="card-title">Antara Bhattacharya</span>
                                     </div>
                                     <div class="card-content">
-                                        <p>I am a very simple card. I am good at containing small bits of information.
-                                            I am convenient because I require little markup to use effectively.</p>
+                                        <p>Subject: Mathematics</p>
                                     </div>
                                     {{-- <div class="card-action">
                                         <a href="#">This is a link</a>
@@ -87,8 +89,7 @@
                                         <span class="card-title">Birju Paswan</span>
                                     </div>
                                     <div class="card-content">
-                                        <p>I am a very simple card. I am good at containing small bits of information.
-                                            I am convenient because I require little markup to use effectively.</p>
+                                        <p>Subject: English</p>
                                     </div>
                                     {{-- <div class="card-action">
                                         <a href="#">This is a link</a>
@@ -149,8 +150,7 @@
                                         <span class="card-title">Himakshi Kalita</span>
                                     </div>
                                     <div class="card-content">
-                                        <p>I am a very simple card. I am good at containing small bits of information.
-                                            I am convenient because I require little markup to use effectively.</p>
+                                        <p>Subject: Economics</p>
                                     </div>
                                     {{-- <div class="card-action">
                                         <a href="#">This is a link</a>
@@ -164,8 +164,7 @@
                                         <span class="card-title">Jumi Kuor</span>
                                     </div>
                                     <div class="card-content">
-                                        <p>I am a very simple card. I am good at containing small bits of information.
-                                            I am convenient because I require little markup to use effectively.</p>
+                                        <p>Subject: Geography</p>
                                     </div>
                                     {{-- <div class="card-action">
                                         <a href="#">This is a link</a>
@@ -179,8 +178,7 @@
                                         <span class="card-title">Sewali Keleng</span>
                                     </div>
                                     <div class="card-content">
-                                        <p>I am a very simple card. I am good at containing small bits of information.
-                                            I am convenient because I require little markup to use effectively.</p>
+                                        <p>Subject: Political Science</p>
                                     </div>
                                     {{-- <div class="card-action">
                                         <a href="#">This is a link</a>
@@ -194,8 +192,7 @@
                                         <span class="card-title">Anul Boro</span>
                                     </div>
                                     <div class="card-content">
-                                        <p>I am a very simple card. I am good at containing small bits of information.
-                                            I am convenient because I require little markup to use effectively.</p>
+                                        <p>Subject: Education</p>
                                     </div>
                                     {{-- <div class="card-action">
                                         <a href="#">This is a link</a>
@@ -209,8 +206,7 @@
                                         <span class="card-title">Shivani Chakraborty</span>
                                     </div>
                                     <div class="card-content">
-                                        <p>I am a very simple card. I am good at containing small bits of information.
-                                            I am convenient because I require little markup to use effectively.</p>
+                                        <p>Subject: Assamese</p>
                                     </div>
                                     {{-- <div class="card-action">
                                         <a href="#">This is a link</a>
@@ -224,8 +220,7 @@
                                         <span class="card-title">Junamoni Barman</span>
                                     </div>
                                     <div class="card-content">
-                                        <p>I am a very simple card. I am good at containing small bits of information.
-                                            I am convenient because I require little markup to use effectively.</p>
+                                        <p>Subject: Hindi</p>
                                     </div>
                                     {{-- <div class="card-action">
                                         <a href="#">This is a link</a>
@@ -280,8 +275,7 @@
                                         <span class="card-title">Jumi Kuor</span>
                                     </div>
                                     <div class="card-content">
-                                        <p>I am a very simple card. I am good at containing small bits of information.
-                                            I am convenient because I require little markup to use effectively.</p>
+                                        <p>Subject: Economics</p>
                                     </div>
                                     {{-- <div class="card-action">
                                         <a href="#">This is a link</a>
@@ -295,8 +289,7 @@
                                         <span class="card-title">Junali Rajbongshi</span>
                                     </div>
                                     <div class="card-content">
-                                        <p>I am a very simple card. I am good at containing small bits of information.
-                                            I am convenient because I require little markup to use effectively.</p>
+                                        <p>Subject: Accountancy</p>
                                     </div>
                                     {{-- <div class="card-action">
                                         <a href="#">This is a link</a>
@@ -310,8 +303,7 @@
                                         <span class="card-title">Antara Bhattacharya</span>
                                     </div>
                                     <div class="card-content">
-                                        <p>I am a very simple card. I am good at containing small bits of information.
-                                            I am convenient because I require little markup to use effectively.</p>
+                                        <p>Subject: Mathematics</p>
                                     </div>
                                     {{-- <div class="card-action">
                                         <a href="#">This is a link</a>
@@ -325,8 +317,7 @@
                                         <span class="card-title">Rashmita Deka</span>
                                     </div>
                                     <div class="card-content">
-                                        <p>I am a very simple card. I am good at containing small bits of information.
-                                            I am convenient because I require little markup to use effectively.</p>
+                                        <p>Subject: English</p>
                                     </div>
                                     {{-- <div class="card-action">
                                         <a href="#">This is a link</a>

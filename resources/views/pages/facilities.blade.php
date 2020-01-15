@@ -22,14 +22,14 @@
 </style>
 <main>
     <div id="introduction" style="height:500px; position:relative;" class="section scrollspy no-padding">
-        <img src="/images/studio.jpg" style="object-fit:cover; height:500px; width:100%;" alt="">
+        <img src="/images/kmc-life.jpg" style="object-fit:cover; height:500px; width:100%;" alt="">
         <div class="row" style="height:500px; width:100%; position:absolute; top:0%; left:0%;">
-            <div class="col s12 l8 m12 offset-l2" style="position:absolute; bottom:0%;">
+            <div class="col s12 l8 m12 offset-l2 no-padding" style="position:absolute; bottom:5%;">
                 <span class="hide-on-small-only"
-                    style="font-size:7vw; margin:0%; padding:0%; line-height:6vw; color:white; font-family: 'Bebas Neue', cursive;">Life
+                    style="font-size:7vw; margin:0%; padding:0% 4%; line-height:6vw; background-color:rgba(0, 0, 0, 0.5); color:white; font-family: 'Bebas Neue', cursive;">Life
                     at KMC</span>
                 <span class="hide-on-med-and-up"
-                    style="font-size:12vh; margin:0%; padding:0%; line-height:11vh; color:white; font-family: 'Bebas Neue', cursive;">Life
+                    style="font-size:12vh; margin:0%; padding:0% 4%; line-height:11vh; background-color:rgba(0, 0, 0, 0.5); color:white; font-family: 'Bebas Neue', cursive;">Life
                     at KMC</span>
             </div>
         </div>
@@ -123,7 +123,7 @@
                         {{-- <img src="/images/class_.jpg"  alt=""> --}}
                     </div>
                     <div class="col s12 m6 l6" style="padding:30px;">
-                        <h4 style="font-family: 'Bebas Neue', cursive;">Intuitive Classroom</h4>
+                        <h4 style="font-family: 'Bebas Neue', cursive;">The Classrooms</h4>
                         <p style="text-align:justify;">We have classrooms at par with modern design standards. Classrooms are equipped with all modern teaching aids.</p>
                     </div>
                 </div>
@@ -134,12 +134,12 @@
                     <img src="/images/labs_.jpg" style="height:500px; object-fit:cover; width:100%;" alt="">
                     <div class="hide-on-med-and-down"
                         style="position:absolute; right:5%; left:50%; top:5%; padding:30px; background-color:rgba(255, 255, 255, 0.9)">
-                        <h4 style="font-family: 'Bebas Neue', cursive;">Exclusive Labs</h4>
+                        <h4 style="font-family: 'Bebas Neue', cursive;">Labs</h4>
                         <p style="text-align:justify;">Practical knowledge is a vital component of technical education. Arts, Science and Humanities has separate laboratories for all subjects in Science and professional courses. Laboratories are well equipped and regularly updated and upgraded.</p>
                     </div>
                     <div class="hide-on-large-only"
                         style="position:absolute; left:2%; right:2%; bottom:2%; padding:10px; background-color:rgba(255, 255, 255, 0.9)">
-                        <h4 style="font-family: 'Bebas Neue', cursive;">Book Haven</h4>
+                        <h4 style="font-family: 'Bebas Neue', cursive;">Labs</h4>
                         <p style="text-align:justify;">Practical knowledge is a vital component of technical education. Arts, Science and Humanities has separate laboratories for all subjects in Science and professional courses. Laboratories are well equipped and regularly updated and upgraded.</p>
                     </div>
                 </div>
@@ -149,12 +149,12 @@
                 <div class="row" style="margin:0% !important; position:relative;">
                     <div class="hide-on-med-and-down"
                         style="position:absolute; right:50%; left:5%; top:5%; color:white; padding:30px; background-color:rgba(0, 0, 0, 0.7)">
-                        <h4 style="font-family: 'Bebas Neue', cursive;">Book Haven</h4>
+                        <h4 style="font-family: 'Bebas Neue', cursive;">Library</h4>
                         <p style="text-align:justify;">We have a modern library with digital facilities and round the clock internet connection for the students. The students can issue the books and can study inside the library.</p>
                     </div>
                     <div class="hide-on-large-only"
                         style="position:absolute; left:2%; right:2%; bottom:2%; color:white; padding:10px; background-color:rgba(0, 0, 0, 0.7)">
-                        <h4 style="font-family: 'Bebas Neue', cursive;">Book Haven</h4>
+                        <h4 style="font-family: 'Bebas Neue', cursive;">Library</h4>
                         <p style="text-align:justify;">We have a modern library with digital facilities and round the clock internet connection for the students. The students can issue the books and can study inside the library.</p>
                     </div>
                     <img src="/images/library_.jpg" style="height:500px; object-fit:cover; width:100%;" alt="">

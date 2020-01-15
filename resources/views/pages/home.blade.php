@@ -82,7 +82,8 @@
                             <img class="responsive-img circle" src="/images/user.svg" alt="">
                         </div>
                         <div class="col s9 right">
-                        <p>It looks like you haven't applied for our college. You can apply <a href="{{ route('application_requests.create')}}">Right Here</a></p>
+                            <p>It looks like you haven't applied for our college. You can apply <a
+                                    href="{{ route('application_requests.create')}}">Right Here</a></p>
                         </div>
                     </div>
                 </div>
@@ -145,17 +146,7 @@
             </div>
         </div>
         <div class="col s12 m8 l10">
-            <div id="welcome-board" class="col l2">
-                <div class="card small">
-                    <div class="card-image">
-                        <img src="https://media.giphy.com/media/g9582DNuQppxC/giphy-downsized.gif" alt="">
-                    </div>
-                    <div class="card-content">
-                        <span>Hurray! You can now check your application staus right here!!</span>
-                    </div>
-                </div>
-            </div>
-            
+            @if (Auth::user()->user_type == "admin")
             <div id="searchable-requests" style="height:500px;">
                 <div class="blue accent-3" style="width:100%; height:64px;">
                     <span style="font-size:1.5rem; line-height:64px; margin-left:20px;" class="white-text">Application
@@ -220,13 +211,13 @@
                     <div style="padding:30px;">
                         <form action="{{ route('news_posts.store')}}" method="post" enctype="multipart/form-data">
                             @csrf
-                            <div class="input-field col s6">
+                            <div class="input-field">
                                 <input placeholder="Title of the News" id="news_title" name="title" type="text"
                                     class="validate" required>
                                 <label for="news_title">News Title</label>
                             </div>
 
-                            <div class="input-field col s12">
+                            <div class="input-field">
                                 <textarea placeholder="Write something here ..." id="news-content" name="content"
                                     data-length="1000" class="materialize-textarea" required></textarea>
                                 <label for="news-content">Content</label>
@@ -249,11 +240,38 @@
                     </div>
                 </div>
             </div>
+
+            @else
+            @if ($applied)
+            <div id="welcome-board" class="col l2">
+                <div class="card medium">
+                    <div class="card-image">
+                        <img src="https://media.giphy.com/media/g9582DNuQppxC/giphy-downsized.gif" alt="">
+                    </div>
+                    <div class="card-content">
+                        <span>Hurray! You can now check your application staus right here!! Although, for now this page
+                            is in development. We will email you your application status.</span>
+                    </div>
+                </div>
+            </div>
+            @else
+            <div class="col s12">
+                <img src="/images/empty.jpg" style="display:block; margin:auto; max-width:400px; object-fit:cover; height:400px; width:100%;" alt="">
+            </div>
+            <div class="col s12 center">
+                <span>This page is in development. See you soon.</span>
+            </div>
+            @endif
+            @endif
+
+
         </div>
     </div>
 </main>
 <script>
     M.toast({html: 'You\'re Logged In !'})
+    $('#news-content').val('');
+    M.textareaAutoResize($('#news-content'));
 
     var q = "all";
     var xmlhttp = new XMLHttpRequest();

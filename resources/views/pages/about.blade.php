@@ -3,7 +3,7 @@
 @section('content')
 <main>
     <div id="introduction-about" style="height:700px; position:relative;" class="section scrollspy no-padding">
-        <img src="/images/IMG_5012.JPG" style="object-fit:cover; height:700px; width:100%;" alt="">
+        <img src="/images/about-cover.jpg" style="object-fit:cover; height:700px; width:100%;" alt="">
         <div class="row" style="height:700px; width:100%; position:absolute; top:0%; left:0%;">
             <div class="col s12 l8 m12 offset-l2" style="position:absolute; bottom:0%;">
                 <span class="hide-on-small-only"
@@ -31,7 +31,7 @@
     			<p class="about-the-college-text">Kamrup Metropolitan College is a very new College situated in the suburban
                 area of Guwahati city. Its just 20kms from the Guwahati city. The colleges
                 started with Higher Secondary classes 10+2 in Arts and Sciences in the year
-                2018. This year the college is planning to start 10+2 in commerce alongwith
+                2018. This year the college is planning to start 10+2 in commerce along with
                 undergraduate courses in Arts and Commerce and add on courses like UG and PG diploma in selected
                 professional subjects. The college is determined to provide basic educational skills to prepare students
                 to face all hurdles in their career avenues. The system of education in the insitute is designed to help
